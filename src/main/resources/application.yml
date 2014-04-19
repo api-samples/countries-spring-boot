@@ -1,0 +1,15 @@
+http.mappers.json-pretty-print: true
+error.whitelabel.enabled: false
+
+server:
+  port: 8080
+  address: 127.0.0.1
+  sessionTimeout: 0
+
+---
+spring.profiles: test
+
+server:
+  port: 0
+  address: 127.0.0.1
+  sessionTimeout: 0

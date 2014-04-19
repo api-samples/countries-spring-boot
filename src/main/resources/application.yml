@@ -6,6 +6,8 @@ server:
   address: 127.0.0.1
   sessionTimeout: 0
 
+management.port: 8181
+
 ---
 spring.profiles: test
 
@@ -13,3 +15,10 @@ server:
   port: 0
   address: 127.0.0.1
   sessionTimeout: 0
+
+management.port: -1
+
+spring:
+  main:
+    show-banner: false
+    log-startup-info: false

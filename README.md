@@ -33,7 +33,10 @@ apparent level of comfort with technology
 
 4. explaining lower level concepts: performance, concurrency, networking
 
-5. selling their favorite concepts or products to a non-technical customer
+5. giving a brief overview of the principles of project management, product
+management, system administration and testing
+
+6. selling their favorite concepts or products to a non-technical customer
 using credible business-level argumentation
 
 ### This is a simple Spring Boot reference implementation of that assignment.

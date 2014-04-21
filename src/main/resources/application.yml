@@ -2,11 +2,9 @@ http.mappers.json-pretty-print: true
 error.whitelabel.enabled: false
 
 server:
-  port: ${port:8080}
+  port: 8080
   address: 127.0.0.1
   sessionTimeout: 0
-
-management.port: 8181
 
 ---
 spring.profiles: test
@@ -22,3 +20,9 @@ spring:
   main:
     show-banner: false
     log-startup-info: false
+
+---
+spring.profiles: heroku
+
+server.port: ${PORT}
+server.address: 0.0.0.0

@@ -2,7 +2,7 @@ http.mappers.json-pretty-print: true
 error.whitelabel.enabled: false
 
 server:
-  port: 8080
+  port: ${port:8080}
   address: 127.0.0.1
   sessionTimeout: 0
 

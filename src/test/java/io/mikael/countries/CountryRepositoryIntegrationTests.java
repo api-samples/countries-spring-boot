@@ -46,7 +46,7 @@ public class CountryRepositoryIntegrationTests {
 
     @Test
     public void findFinlandDirectly() throws Exception {
-        final Optional<Country> finland = dao.getCountry("FI");
+        final Optional<Country> finland = dao.findCountry("FI");
         Assert.assertEquals(finland.get().name, "Finland");
     }
 
@@ -54,16 +54,16 @@ public class CountryRepositoryIntegrationTests {
     public void findSwedenOverWeb() throws Exception {
         final String url = String.format("http://localhost:%s/countries/SE", port);
         final ResponseEntity<Country> re = restTemplate.getForEntity(url, Country.class);
-        Assert.assertEquals(re.getStatusCode(), HttpStatus.OK);
+        Assert.assertEquals(HttpStatus.OK, re.getStatusCode());
         final Country sweden = re.getBody();
-        Assert.assertEquals(sweden.name, "Sweden");
+        Assert.assertEquals("Sweden", sweden.name);
     }
 
     @Test
     public void findInvalid() throws Exception {
         final String url = String.format("http://localhost:%s/countries/BLAH", port);
         final ResponseEntity<Country> re = restTemplate.getForEntity(url, Country.class);
-        Assert.assertEquals(re.getStatusCode(), HttpStatus.NOT_FOUND);
+        Assert.assertEquals(HttpStatus.NOT_FOUND, re.getStatusCode());
     }
 
 }

@@ -33,7 +33,7 @@ public class CountryRepository {
     /**
      * Not optimal, but demonstrates @{code Optional} and Streams.
      */
-    public Optional<Country> getCountry(final String cca2) {
+    public Optional<Country> findCountry(final String cca2) {
         return data.stream().filter(c -> c.cca2.equals(cca2)).findFirst();
     }
 

@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Optional;
-
 @RestController
 public class CountryController {
 
@@ -20,12 +18,9 @@ public class CountryController {
 
     @RequestMapping(value="/countries/{cca2}", method=RequestMethod.GET)
     public ResponseEntity<Country> getCountry(@PathVariable String cca2) {
-        final Optional<Country> oc = dao.getCountry(cca2);
-        if (oc.isPresent()) {
-            return new ResponseEntity<>(oc.get(), HttpStatus.OK);
-        } else {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+        return dao.findCountry(cca2)
+                .map(c -> new ResponseEntity<>(c, HttpStatus.OK))
+                .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
 
 }

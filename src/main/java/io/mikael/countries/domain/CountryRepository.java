@@ -32,9 +32,10 @@ public class CountryRepository {
 
     /**
      * Not optimal, but demonstrates @{code Optional} and Streams.
+     * @param twoLetterCountryCode ISO 3166-1 alpha-2 country code.
      */
-    public Optional<Country> findCountry(final String cca2) {
-        return data.stream().filter(c -> c.cca2.equals(cca2)).findFirst();
+    public Optional<Country> findCountry(final String twoLetterCountryCode) {
+        return data.stream().filter(c -> c.cca2.equals(twoLetterCountryCode)).findFirst();
     }
 
 }

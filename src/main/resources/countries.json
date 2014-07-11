@@ -25,10 +25,10 @@
 			"nl": "Afghanistan",
 			"hr": "Afganistan"
 		},
-		"population": 25500100,
 		"latlng": [33, 65],
 		"demonym": "Afghan",
-		"borders": ["IRN", "PAK", "TKM", "UZB", "TJK", "CHN"]
+		"borders": ["IRN", "PAK", "TKM", "UZB", "TJK", "CHN"],
+		"area": 652230
 	},
 	{
 		"name": "\u00c5land Islands",
@@ -55,10 +55,10 @@
 			"nl": "\u00c5landeilanden",
 			"hr": "\u00c5landski otoci"
 		},
-		"population": 28502,
 		"latlng": [60.116667, 19.9],
 		"demonym": "\u00c5landish",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "Albania",
@@ -86,10 +86,10 @@
 			"nl": "Albani\u00eb",
 			"hr": "Albanija"
 		},
-		"population": 2821977,
 		"latlng": [41, 20],
 		"demonym": "Albanian",
-		"borders": ["MNE", "GRC", "MKD", "KOS"]
+		"borders": ["MNE", "GRC", "MKD", "KOS"],
+		"area": 28748
 	},
 	{
 		"name": "Algeria",
@@ -117,10 +117,10 @@
 			"nl": "Algerije",
 			"hr": "Al\u017eir"
 		},
-		"population": 37900000,
 		"latlng": [28, 3],
 		"demonym": "Algerian",
-		"borders": ["TUN", "LDY", "NER", "ESH", "MRT", "MLI", "MAR"]
+		"borders": ["TUN", "LDY", "NER", "ESH", "MRT", "MLI", "MAR"],
+		"area": 2381741
 	},
 	{
 		"name": "American Samoa",
@@ -147,10 +147,10 @@
 			"nl": "Amerikaans Samoa",
 			"hr": "Ameri\u010dka Samoa"
 		},
-		"population": 55519,
 		"latlng": [-14.33333333, -170],
 		"demonym": "American Samoan",
-		"borders": []
+		"borders": [],
+		"area": 199
 	},
 	{
 		"name": "Andorra",
@@ -178,10 +178,10 @@
 			"nl": "Andorra",
 			"hr": "Andora"
 		},
-		"population": 76246,
 		"latlng": [42.5, 1.5],
 		"demonym": "Andorran",
-		"borders": ["FRA", "ESP"]
+		"borders": ["FRA", "ESP"],
+		"area": 468
 	},
 	{
 		"name": "Angola",
@@ -209,10 +209,10 @@
 			"nl": "Angola",
 			"hr": "Angola"
 		},
-		"population": 20609294,
 		"latlng": [-12.5, 18.5],
 		"demonym": "Angolan",
-		"borders": ["COG", "COD", "ZMB", "NAM"]
+		"borders": ["COG", "COD", "ZMB", "NAM"],
+		"area": 1246700
 	},
 	{
 		"name": "Anguilla",
@@ -239,10 +239,10 @@
 			"nl": "Anguilla",
 			"hr": "Angvila"
 		},
-		"population": 13452,
 		"latlng": [18.25, -63.16666666],
 		"demonym": "Anguillian",
-		"borders": []
+		"borders": [],
+		"area": 91
 	},
 	{
 		"name": "Antarctica",
@@ -270,10 +270,10 @@
 			"nl": "Antarctica",
 			"hr": "Antarktika"
 		},
-		"population": -1,
 		"latlng": [-90, 0],
 		"demonym": "",
-		"borders": []
+		"borders": [],
+		"area": 14000000
 	},
 	{
 		"name": "Antigua and Barbuda",
@@ -301,10 +301,10 @@
 			"nl": "Antigua en Barbuda",
 			"hr": "Antigva i Barbuda"
 		},
-		"population": 86295,
 		"latlng": [17.05, -61.8],
 		"demonym": "Antiguan, Barbudan",
-		"borders": []
+		"borders": [],
+		"area": 442
 	},
 	{
 		"name": "Argentina",
@@ -332,10 +332,10 @@
 			"nl": "Argentini\u00eb",
 			"hr": "Argentina"
 		},
-		"population": 40117096,
 		"latlng": [-34, -64],
 		"demonym": "Argentinean",
-		"borders": ["BOL", "BRA", "CHL", "PRY", "URY"]
+		"borders": ["BOL", "BRA", "CHL", "PRY", "URY"],
+		"area": 2780400
 	},
 	{
 		"name": "Armenia",
@@ -363,10 +363,10 @@
 			"nl": "Armeni\u00eb",
 			"hr": "Armenija"
 		},
-		"population": 3024100,
 		"latlng": [40, 45],
 		"demonym": "Armenian",
-		"borders": ["AZE", "GEO", "IRN", "TUR"]
+		"borders": ["AZE", "GEO", "IRN", "TUR"],
+		"area": 29743
 	},
 	{
 		"name": "Aruba",
@@ -393,10 +393,10 @@
 			"nl": "Aruba",
 			"hr": "Aruba"
 		},
-		"population": 101484,
 		"latlng": [12.5, -69.96666666],
 		"demonym": "Aruban",
-		"borders": []
+		"borders": [],
+		"area": 180
 	},
 	{
 		"name": "Ascension Island",
@@ -424,10 +424,10 @@
 			"nl": "Ascension",
 			"hr": "Otok Ascension"
 		},
-		"population": 880,
 		"latlng": [-7.933333, -14.366667],
 		"demonym": "Saints",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "Australia",
@@ -455,10 +455,10 @@
 			"nl": "Australi\u00eb",
 			"hr": "Australija"
 		},
-		"population": 23254142,
 		"latlng": [-27, 133],
 		"demonym": "Australian",
-		"borders": []
+		"borders": [],
+		"area": 7692024
 	},
 	{
 		"name": "Austria",
@@ -486,10 +486,10 @@
 			"nl": "Oostenrijk",
 			"hr": "Austrija"
 		},
-		"population": 8501502,
 		"latlng": [47.33333333, 13.33333333],
 		"demonym": "Austrian",
-		"borders": ["CZE", "DEU", "HUN", "ITA", "LIE", "SVK", "SVN", "CHE"]
+		"borders": ["CZE", "DEU", "HUN", "ITA", "LIE", "SVK", "SVN", "CHE"],
+		"area": 83871
 	},
 	{
 		"name": "Azerbaijan",
@@ -517,10 +517,10 @@
 			"nl": "Azerbeidzjan",
 			"hr": "Azerbajd\u017ean"
 		},
-		"population": 9235100,
 		"latlng": [40.5, 47.5],
 		"demonym": "Azerbaijani",
-		"borders": ["ARM", "GEO", "IRN", "RUS", "TUR"]
+		"borders": ["ARM", "GEO", "IRN", "RUS", "TUR"],
+		"area": 86600
 	},
 	{
 		"name": "Bahamas",
@@ -548,10 +548,10 @@
 			"nl": "Bahama\u2019s",
 			"hr": "Bahami"
 		},
-		"population": 319031,
 		"latlng": [24.25, -76],
 		"demonym": "Bahamian",
-		"borders": []
+		"borders": [],
+		"area": 13943
 	},
 	{
 		"name": "Bahrain",
@@ -579,10 +579,10 @@
 			"nl": "Bahrein",
 			"hr": "Bahrein"
 		},
-		"population": 1234571,
 		"latlng": [26, 50.55],
 		"demonym": "Bahraini",
-		"borders": []
+		"borders": [],
+		"area": 765
 	},
 	{
 		"name": "Bangladesh",
@@ -610,10 +610,10 @@
 			"nl": "Bangladesh",
 			"hr": "Banglade\u0161"
 		},
-		"population": 152518015,
 		"latlng": [24, 90],
 		"demonym": "Bangladeshi",
-		"borders": ["MMR", "IND"]
+		"borders": ["MMR", "IND"],
+		"area": 147570
 	},
 	{
 		"name": "Barbados",
@@ -641,10 +641,10 @@
 			"nl": "Barbados",
 			"hr": "Barbados"
 		},
-		"population": 274200,
 		"latlng": [13.16666666, -59.53333333],
 		"demonym": "Barbadian",
-		"borders": []
+		"borders": [],
+		"area": 430
 	},
 	{
 		"name": "Belarus",
@@ -672,10 +672,10 @@
 			"nl": "Wit-Rusland",
 			"hr": "Bjelorusija"
 		},
-		"population": 9465500,
 		"latlng": [53, 28],
 		"demonym": "Belarusian",
-		"borders": ["LVA", "LTU", "POL", "RUS", "UKR"]
+		"borders": ["LVA", "LTU", "POL", "RUS", "UKR"],
+		"area": 207600
 	},
 	{
 		"name": "Belgium",
@@ -703,10 +703,10 @@
 			"nl": "Belgi\u00eb",
 			"hr": "Belgija"
 		},
-		"population": 11175653,
 		"latlng": [50.83333333, 4],
 		"demonym": "Belgian",
-		"borders": ["FRA", "DEU", "LUX", "NLD"]
+		"borders": ["FRA", "DEU", "LUX", "NLD"],
+		"area": 30528
 	},
 	{
 		"name": "Belize",
@@ -734,10 +734,10 @@
 			"nl": "Belize",
 			"hr": "Belize"
 		},
-		"population": 312971,
 		"latlng": [17.25, -88.75],
 		"demonym": "Belizean",
-		"borders": ["GTM", "MEX"]
+		"borders": ["GTM", "MEX"],
+		"area": 22966
 	},
 	{
 		"name": "Benin",
@@ -765,10 +765,10 @@
 			"nl": "Benin",
 			"hr": "Benin"
 		},
-		"population": 10323000,
 		"latlng": [9.5, 2.25],
 		"demonym": "Beninese",
-		"borders": ["BFA", "NER", "NGA", "TGO"]
+		"borders": ["BFA", "NER", "NGA", "TGO"],
+		"area": 112622
 	},
 	{
 		"name": "Bermuda",
@@ -796,10 +796,10 @@
 			"nl": "Bermuda",
 			"hr": "Bermudi"
 		},
-		"population": 64237,
 		"latlng": [32.33333333, -64.75],
 		"demonym": "Bermudian",
-		"borders": []
+		"borders": [],
+		"area": 54
 	},
 	{
 		"name": "Bhutan",
@@ -827,10 +827,10 @@
 			"nl": "Bhutan",
 			"hr": "Butan"
 		},
-		"population": 740990,
 		"latlng": [27.5, 90.5],
 		"demonym": "Bhutanese",
-		"borders": ["CHN", "IND"]
+		"borders": ["CHN", "IND"],
+		"area": 38394
 	},
 	{
 		"name": "Bolivia",
@@ -858,10 +858,10 @@
 			"nl": "Bolivia",
 			"hr": "Bolivija"
 		},
-		"population": 10027254,
 		"latlng": [-17, -65],
 		"demonym": "Bolivian",
-		"borders": ["ARG", "BRA", "CHL", "PRY", "PRU"]
+		"borders": ["ARG", "BRA", "CHL", "PRY", "PRU"],
+		"area": 1098581
 	},
 	{
 		"name": "Bonaire",
@@ -880,10 +880,10 @@
 		"language": ["Dutch"],
 		"languageCodes": ["nl"],
 		"translations": {},
-		"population": 17408,
 		"latlng": [12.15, -68.266667],
 		"demonym": "Dutch",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "Bosnia and Herzegovina",
@@ -911,10 +911,10 @@
 			"nl": "Bosni\u00eb en Herzegovina",
 			"hr": "Bosna i Hercegovina"
 		},
-		"population": 3791622,
 		"latlng": [44, 18],
 		"demonym": "Bosnian, Herzegovinian",
-		"borders": ["HRV", "MNE", "SRB"]
+		"borders": ["HRV", "MNE", "SRB"],
+		"area": 51209
 	},
 	{
 		"name": "Botswana",
@@ -941,10 +941,10 @@
 			"nl": "Botswana",
 			"hr": "Bocvana"
 		},
-		"population": 2024904,
 		"latlng": [-22, 24],
 		"demonym": "Motswana",
-		"borders": ["NAM", "ZAF", "ZMB", "ZWE"]
+		"borders": ["NAM", "ZAF", "ZMB", "ZWE"],
+		"area": 582000
 	},
 	{
 		"name": "Bouvet Island",
@@ -971,10 +971,10 @@
 			"nl": "Bouveteiland",
 			"hr": "Otok Bouvet"
 		},
-		"population": 0,
 		"latlng": [-54.43333333, 3.4],
 		"demonym": "",
-		"borders": []
+		"borders": [],
+		"area": 49
 	},
 	{
 		"name": "Brazil",
@@ -1002,10 +1002,10 @@
 			"nl": "Brazili\u00eb",
 			"hr": "Brazil"
 		},
-		"population": 201032714,
 		"latlng": [-10, -55],
 		"demonym": "Brazilian",
-		"borders": ["ARG", "BOL", "COL", "GUF", "GUY", "PRY", "PER", "SUR", "URY", "VEN"]
+		"borders": ["ARG", "BOL", "COL", "GUF", "GUY", "PRY", "PER", "SUR", "URY", "VEN"],
+		"area": 8515767
 	},
 	{
 		"name": "British Indian Ocean Territory",
@@ -1033,10 +1033,10 @@
 			"nl": "Britse Gebieden in de Indische Oceaan",
 			"hr": "Britanski Indijskooceanski teritorij"
 		},
-		"population": 3000,
 		"latlng": [-6, 71.5],
 		"demonym": "Indian",
-		"borders": []
+		"borders": [],
+		"area": 60
 	},
 	{
 		"name": "British Virgin Islands",
@@ -1063,10 +1063,10 @@
 			"nl": "Britse Maagdeneilanden",
 			"hr": "Britanski Djevi\u010danski Otoci"
 		},
-		"population": 29537,
 		"latlng": [18.431383, -64.62305],
 		"demonym": "Virgin Islander",
-		"borders": []
+		"borders": [],
+		"area": 151
 	},
 	{
 		"name": "Brunei",
@@ -1090,14 +1090,14 @@
 			"nl": "Brunei",
 			"de": "Brunei",
 			"it": "Brunei",
-			"ja": "\u30D6\u30EB\u30CD\u30A4\u30FB\u30C0\u30EB\u30B5\u30E9\u30FC\u30E0",
+			"ja": "\u30d6\u30eb\u30cd\u30a4\u30fb\u30c0\u30eb\u30b5\u30e9\u30fc\u30e0",
 			"es": "Brunei",
 			"hr": "Brunej"
 		},
-		"population": 393162,
 		"latlng": [4.5, 114.66666666],
 		"demonym": "Bruneian",
-		"borders": ["MYS"]
+		"borders": ["MYS"],
+		"area": 5765
 	},
 	{
 		"name": "Bulgaria",
@@ -1125,10 +1125,10 @@
 			"nl": "Bulgarije",
 			"hr": "Bugarska"
 		},
-		"population": 7282041,
 		"latlng": [43, 25],
 		"demonym": "Bulgarian",
-		"borders": ["GRC", "MKD", "ROU", "SRB", "TUR"]
+		"borders": ["GRC", "MKD", "ROU", "SRB", "TUR"],
+		"area": 110879
 	},
 	{
 		"name": "Burkina Faso",
@@ -1156,10 +1156,10 @@
 			"nl": "Burkina Faso",
 			"hr": "Burkina Faso"
 		},
-		"population": 17322796,
 		"latlng": [13, -2],
 		"demonym": "Burkinabe",
-		"borders": ["BEN", "CIV", "GHA", "MLI", "NER", "TGO"]
+		"borders": ["BEN", "CIV", "GHA", "MLI", "NER", "TGO"],
+		"area": 272967
 	},
 	{
 		"name": "Burundi",
@@ -1187,10 +1187,10 @@
 			"nl": "Burundi",
 			"hr": "Burundi"
 		},
-		"population": 10163000,
 		"latlng": [-3.5, 30],
 		"demonym": "Burundian",
-		"borders": ["COD", "RWA", "TZA"]
+		"borders": ["COD", "RWA", "TZA"],
+		"area": 27834
 	},
 	{
 		"name": "Cambodia",
@@ -1214,14 +1214,14 @@
 			"nl": "Cambodja",
 			"de": "Kambodscha",
 			"it": "Cambogia",
-			"ja": "\u30AB\u30F3\u30DC\u30B8\u30A2",
+			"ja": "\u30ab\u30f3\u30dc\u30b8\u30a2",
 			"es": "Camboya",
 			"hr": "Kambod\u017ea"
 		},
-		"population": 15135000,
 		"latlng": [13, 105],
 		"demonym": "Cambodian",
-		"borders": ["LAO", "THA", "VNM"]
+		"borders": ["LAO", "THA", "VNM"],
+		"area": 181035
 	},
 	{
 		"name": "Cameroon",
@@ -1249,10 +1249,10 @@
 			"nl": "Kameroen",
 			"hr": "Kamerun"
 		},
-		"population": 20386799,
 		"latlng": [6, 12],
 		"demonym": "Cameroonian",
-		"borders": ["CAF", "TCD", "COG", "GNQ", "GAB", "NGA"]
+		"borders": ["CAF", "TCD", "COG", "GNQ", "GAB", "NGA"],
+		"area": 475442
 	},
 	{
 		"name": "Canada",
@@ -1280,10 +1280,10 @@
 			"nl": "Canada",
 			"hr": "Kanada"
 		},
-		"population": 35158304,
 		"latlng": [60, -95],
 		"demonym": "Canadian",
-		"borders": ["USA"]
+		"borders": ["USA"],
+		"area": 9984670
 	},
 	{
 		"name": "Cape Verde",
@@ -1311,10 +1311,10 @@
 			"nl": "Kaapverdi\u00eb",
 			"hr": "Zelenortska Republika"
 		},
-		"population": 491875,
 		"latlng": [16, -24],
 		"demonym": "Cape Verdian",
-		"borders": []
+		"borders": [],
+		"area": 4033
 	},
 	{
 		"name": "Cayman Islands",
@@ -1342,10 +1342,10 @@
 			"nl": "Caymaneilanden",
 			"hr": "Kajmanski otoci"
 		},
-		"population": 55456,
 		"latlng": [19.5, -80.5],
 		"demonym": "Caymanian",
-		"borders": []
+		"borders": [],
+		"area": 264
 	},
 	{
 		"name": "Central African Republic",
@@ -1373,10 +1373,10 @@
 			"nl": "Centraal-Afrikaanse Republiek",
 			"hr": "Srednjoafri\u010dka Republika"
 		},
-		"population": 4616000,
 		"latlng": [7, 21],
 		"demonym": "Central African",
-		"borders": ["CMR", "TCD", "COD", "COG", "SSD", "SDN"]
+		"borders": ["CMR", "TCD", "COD", "COG", "SSD", "SDN"],
+		"area": 622984
 	},
 	{
 		"name": "Chad",
@@ -1404,10 +1404,10 @@
 			"nl": "Tsjaad",
 			"hr": "\u010cad"
 		},
-		"population": 12825000,
 		"latlng": [15, 19],
 		"demonym": "Chadian",
-		"borders": ["CMR", "CAF", "LBY", "NER", "NGA", "SSD"]
+		"borders": ["CMR", "CAF", "LBY", "NER", "NGA", "SSD"],
+		"area": 1284000
 	},
 	{
 		"name": "Chile",
@@ -1435,10 +1435,10 @@
 			"nl": "Chili",
 			"hr": "\u010cile"
 		},
-		"population": 16634603,
 		"latlng": [-30, -71],
 		"demonym": "Chilean",
-		"borders": ["ARG", "BOL", "PER"]
+		"borders": ["ARG", "BOL", "PER"],
+		"area": 756102
 	},
 	{
 		"name": "China",
@@ -1466,10 +1466,10 @@
 			"nl": "China",
 			"hr": "Kina"
 		},
-		"population": 1361170000,
 		"latlng": [35, 105],
 		"demonym": "Chinese",
-		"borders": ["AFG", "BTN", "MMR", "HKG", "IND", "KAZ", "PRK", "KGZ", "LAO", "MAC", "MNG", "PAK", "RUS", "TJK", "VNM"]
+		"borders": ["AFG", "BTN", "MMR", "HKG", "IND", "KAZ", "PRK", "KGZ", "LAO", "MAC", "MNG", "PAK", "RUS", "TJK", "VNM"],
+		"area": 9706961
 	},
 	{
 		"name": "Christmas Island",
@@ -1493,14 +1493,14 @@
 			"nl": "Christmaseiland",
 			"de": "Weihnachtsinsel",
 			"it": "Isola di Natale",
-			"ja": "\u30AF\u30EA\u30B9\u30DE\u30B9\u5CF6",
+			"ja": "\u30af\u30ea\u30b9\u30de\u30b9\u5cf6",
 			"es": "Isla de Navidad",
 			"hr": "Bo\u017ei\u0107ni otok"
 		},
-		"population": 2072,
 		"latlng": [-10.5, 105.66666666],
 		"demonym": "Christmas Island",
-		"borders": []
+		"borders": [],
+		"area": 135
 	},
 	{
 		"name": "Cocos (Keeling) Islands",
@@ -1524,14 +1524,14 @@
 			"nl": "Cocoseilanden",
 			"de": "Kokosinseln",
 			"it": "Isole Cocos e Keeling",
-			"ja": "\u30B3\u30B3\u30B9\uFF08\u30AD\u30FC\u30EA\u30F3\u30B0\uFF09\u8AF8\u5CF6",
+			"ja": "\u30b3\u30b3\u30b9\uff08\u30ad\u30fc\u30ea\u30f3\u30b0\uff09\u8af8\u5cf6",
 			"es": "Islas Cocos o Islas Keeling",
 			"hr": "Kokosovi Otoci"
 		},
-		"population": 550,
 		"latlng": [-12.5, 96.83333333],
 		"demonym": "Cocos Islander",
-		"borders": []
+		"borders": [],
+		"area": 14
 	},
 	{
 		"name": "Colombia",
@@ -1559,10 +1559,10 @@
 			"nl": "Colombia",
 			"hr": "Kolumbija"
 		},
-		"population": 47330000,
 		"latlng": [4, -72],
 		"demonym": "Colombian",
-		"borders": ["BRA", "ECU", "PAN", "PER", "VEN"]
+		"borders": ["BRA", "ECU", "PAN", "PER", "VEN"],
+		"area": 1141748
 	},
 	{
 		"name": "Comoros",
@@ -1590,10 +1590,10 @@
 			"nl": "Comoren",
 			"hr": "Komori"
 		},
-		"population": 724300,
 		"latlng": [-12.16666666, 44.25],
 		"demonym": "Comoran",
-		"borders": []
+		"borders": [],
+		"area": 1862
 	},
 	{
 		"name": "Republic of the Congo",
@@ -1621,10 +1621,10 @@
 			"nl": "Congo [Republiek]",
 			"hr": "Kongo"
 		},
-		"population": 4448000,
 		"latlng": [-1, 15],
 		"demonym": "Congolese",
-		"borders": ["AGO", "CMR", "CAF", "COD", "GAB"]
+		"borders": ["AGO", "CMR", "CAF", "COD", "GAB"],
+		"area": 342000
 	},
 	{
 		"name": "Democratic Republic of the Congo",
@@ -1652,10 +1652,10 @@
 			"nl": "Congo [DRC]",
 			"hr": "Kongo, Demokratska Republika"
 		},
-		"population": 67514000,
 		"latlng": [0, 25],
 		"demonym": "Congolese",
-		"borders": ["AGO", "BDI", "CAF", "COG", "RWA", "SSD", "TZA", "UGA", "ZMB"]
+		"borders": ["AGO", "BDI", "CAF", "COG", "RWA", "SSD", "TZA", "UGA", "ZMB"],
+		"area": 2344858
 	},
 	{
 		"name": "Cook Islands",
@@ -1683,10 +1683,10 @@
 			"nl": "Cookeilanden",
 			"hr": "Cookovo Oto\u010dje"
 		},
-		"population": 14974,
 		"latlng": [-21.23333333, -159.76666666],
 		"demonym": "Cook Islander",
-		"borders": []
+		"borders": [],
+		"area": 236
 	},
 	{
 		"name": "Costa Rica",
@@ -1714,10 +1714,10 @@
 			"nl": "Costa Rica",
 			"hr": "Kostarika"
 		},
-		"population": 4667096,
 		"latlng": [10, -84],
 		"demonym": "Costa Rican",
-		"borders": ["NIC", "PAN"]
+		"borders": ["NIC", "PAN"],
+		"area": 51100
 	},
 	{
 		"name": "Croatia",
@@ -1745,10 +1745,10 @@
 			"nl": "Kroati\u00eb",
 			"hr": "Hrvatska"
 		},
-		"population": 4290612,
 		"latlng": [45.16666666, 15.5],
 		"demonym": "Croatian",
-		"borders": ["BIH", "HUN", "MNE", "SRB", "SVN"]
+		"borders": ["BIH", "HUN", "MNE", "SRB", "SVN"],
+		"area": 56594
 	},
 	{
 		"name": "Cuba",
@@ -1776,10 +1776,10 @@
 			"nl": "Cuba",
 			"hr": "Kuba"
 		},
-		"population": 11167325,
 		"latlng": [21.5, -80],
 		"demonym": "Cuban",
-		"borders": []
+		"borders": [],
+		"area": 109884
 	},
 	{
 		"name": "Cura\u00e7ao",
@@ -1800,10 +1800,10 @@
 		"translations": {
 			"nl": "Cura\u00e7ao"
 		},
-		"population": 150563,
 		"latlng": [12.116667, -68.933333],
 		"demonym": "Dutch",
-		"borders": []
+		"borders": [],
+		"area": 444
 	},
 	{
 		"name": "Cyprus",
@@ -1817,8 +1817,8 @@
 		"capital": "Nicosia",
 		"altSpellings": ["CY", "K\u00fdpros", "K\u0131br\u0131s", "Republic of Cyprus", "\u039a\u03c5\u03c0\u03c1\u03b9\u03b1\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1", "K\u0131br\u0131s Cumhuriyeti"],
 		"relevance": "0",
-		"region": "Asia",
-		"subregion": "Western Asia",
+		"region": "Europe",
+		"subregion": "Eastern Europe",
 		"language": ["Greek", "Turkish"],
 		"languageCodes": ["el", "tr", "hy"],
 		"translations": {
@@ -1831,10 +1831,10 @@
 			"nl": "Cyprus",
 			"hr": "Cipar"
 		},
-		"population": 865878,
 		"latlng": [35, 33],
 		"demonym": "Cypriot",
-		"borders": ["GBR"]
+		"borders": ["GBR"],
+		"area": 9251
 	},
 	{
 		"name": "Czech Republic",
@@ -1862,10 +1862,10 @@
 			"nl": "Tsjechi\u00eb",
 			"hr": "\u010ce\u0161ka"
 		},
-		"population": 10512900,
 		"latlng": [49.75, 15.5],
 		"demonym": "Czech",
-		"borders": ["AUT", "DEU", "POL", "SVK"]
+		"borders": ["AUT", "DEU", "POL", "SVK"],
+		"area": 78865
 	},
 	{
 		"name": "Denmark",
@@ -1893,10 +1893,10 @@
 			"nl": "Denemarken",
 			"hr": "Danska"
 		},
-		"population": 5623501,
 		"latlng": [56, 10],
 		"demonym": "Danish",
-		"borders": ["DEU"]
+		"borders": ["DEU"],
+		"area": 43094
 	},
 	{
 		"name": "Djibouti",
@@ -1924,10 +1924,10 @@
 			"nl": "Djibouti",
 			"hr": "D\u017eibuti"
 		},
-		"population": 864618,
 		"latlng": [11.5, 43],
 		"demonym": "Djibouti",
-		"borders": ["ERI", "ETH", "SOM"]
+		"borders": ["ERI", "ETH", "SOM"],
+		"area": 23200
 	},
 	{
 		"name": "Dominica",
@@ -1955,10 +1955,10 @@
 			"nl": "Dominica",
 			"hr": "Dominika"
 		},
-		"population": 71293,
 		"latlng": [15.41666666, -61.33333333],
 		"demonym": "Dominican",
-		"borders": []
+		"borders": [],
+		"area": 751
 	},
 	{
 		"name": "Dominican Republic",
@@ -1986,10 +1986,10 @@
 			"nl": "Dominicaanse Republiek",
 			"hr": "Dominikanska Republika"
 		},
-		"population": 9445281,
 		"latlng": [19, -70.66666666],
 		"demonym": "Dominican",
-		"borders": ["HTI"]
+		"borders": ["HTI"],
+		"area": 48671
 	},
 	{
 		"name": "Ecuador",
@@ -2017,10 +2017,10 @@
 			"nl": "Ecuador",
 			"hr": "Ekvador"
 		},
-		"population": 15617900,
 		"latlng": [-2, -77.5],
 		"demonym": "Ecuadorean",
-		"borders": ["COL", "PER"]
+		"borders": ["COL", "PER"],
+		"area": 276841
 	},
 	{
 		"name": "Egypt",
@@ -2048,10 +2048,10 @@
 			"nl": "Egypte",
 			"hr": "Egipat"
 		},
-		"population": 83661000,
 		"latlng": [27, 30],
 		"demonym": "Egyptian",
-		"borders": ["ISR", "LBY", "SDN"]
+		"borders": ["ISR", "LBY", "SDN"],
+		"area": 1002450
 	},
 	{
 		"name": "El Salvador",
@@ -2079,10 +2079,10 @@
 			"nl": "El Salvador",
 			"hr": "Salvador"
 		},
-		"population": 6340000,
 		"latlng": [13.83333333, -88.91666666],
 		"demonym": "Salvadoran",
-		"borders": ["GTM", "HND"]
+		"borders": ["GTM", "HND"],
+		"area": 21041
 	},
 	{
 		"name": "Equatorial Guinea",
@@ -2110,10 +2110,10 @@
 			"nl": "Equatoriaal-Guinea",
 			"hr": "Ekvatorijalna Gvineja"
 		},
-		"population": 1622000,
 		"latlng": [2, 10],
 		"demonym": "Equatorial Guinean",
-		"borders": ["CMR", "GAB"]
+		"borders": ["CMR", "GAB"],
+		"area": 28051
 	},
 	{
 		"name": "Eritrea",
@@ -2141,10 +2141,10 @@
 			"nl": "Eritrea",
 			"hr": "Eritreja"
 		},
-		"population": 6333000,
 		"latlng": [15, 39],
 		"demonym": "Eritrean",
-		"borders": ["DJI", "ETH", "SDN"]
+		"borders": ["DJI", "ETH", "SDN"],
+		"area": 117600
 	},
 	{
 		"name": "Estonia",
@@ -2172,10 +2172,10 @@
 			"nl": "Estland",
 			"hr": "Estonija"
 		},
-		"population": 1286540,
 		"latlng": [59, 26],
 		"demonym": "Estonian",
-		"borders": ["LVA", "RUS"]
+		"borders": ["LVA", "RUS"],
+		"area": 45227
 	},
 	{
 		"name": "Ethiopia",
@@ -2203,10 +2203,10 @@
 			"nl": "Ethiopi\u00eb",
 			"hr": "Etiopija"
 		},
-		"population": 86613986,
 		"latlng": [8, 38],
 		"demonym": "Ethiopian",
-		"borders": ["DJI", "ERI", "KEN", "SOM", "SSD", "SDN"]
+		"borders": ["DJI", "ERI", "KEN", "SOM", "SSD", "SDN"],
+		"area": 1104300
 	},
 	{
 		"name": "Falkland Islands",
@@ -2233,10 +2233,10 @@
 			"nl": "Falklandeilanden [Islas Malvinas]",
 			"hr": "Falklandski Otoci"
 		},
-		"population": 2563,
 		"latlng": [-51.75, -59],
 		"demonym": "Falkland Islander",
-		"borders": []
+		"borders": [],
+		"area": 12173
 	},
 	{
 		"name": "Faroe Islands",
@@ -2263,10 +2263,10 @@
 			"nl": "Faer\u00f6er",
 			"hr": "Farski Otoci"
 		},
-		"population": 48509,
 		"latlng": [62, -7],
 		"demonym": "Faroese",
-		"borders": []
+		"borders": [],
+		"area": 1393
 	},
 	{
 		"name": "Fiji",
@@ -2293,10 +2293,10 @@
 			"nl": "Fiji",
 			"hr": "Fi\u0111i"
 		},
-		"population": 858038,
 		"latlng": [-18, 175],
 		"demonym": "Fijian",
-		"borders": []
+		"borders": [],
+		"area": 18272
 	},
 	{
 		"name": "Finland",
@@ -2323,10 +2323,10 @@
 			"nl": "Finland",
 			"hr": "Finska"
 		},
-		"population": 5445883,
 		"latlng": [64, 26],
 		"demonym": "Finnish",
-		"borders": ["NOR", "SWE", "RUS"]
+		"borders": ["NOR", "SWE", "RUS"],
+		"area": 338424
 	},
 	{
 		"name": "France",
@@ -2353,10 +2353,10 @@
 			"nl": "Frankrijk",
 			"hr": "Francuska"
 		},
-		"population": 65806000,
 		"latlng": [46, 2],
 		"demonym": "French",
-		"borders": ["AND", "BEL", "DEU", "ITA", "LUX", "MCO", "ESP", "CHE"]
+		"borders": ["AND", "BEL", "DEU", "ITA", "LUX", "MCO", "ESP", "CHE"],
+		"area": -1
 	},
 	{
 		"name": "French Guiana",
@@ -2383,10 +2383,10 @@
 			"nl": "Frans-Guyana",
 			"hr": "Francuska Gvajana"
 		},
-		"population": 229040,
 		"latlng": [4, -53],
 		"demonym": "",
-		"borders": ["BRA", "SUR"]
+		"borders": ["BRA", "SUR"],
+		"area": -1
 	},
 	{
 		"name": "French Polynesia",
@@ -2413,10 +2413,10 @@
 			"nl": "Frans-Polynesi\u00eb",
 			"hr": "Francuska Polinezija"
 		},
-		"population": 268270,
 		"latlng": [-15, -140],
 		"demonym": "French Polynesian",
-		"borders": []
+		"borders": [],
+		"area": 4167
 	},
 	{
 		"name": "French Southern and Antarctic Lands",
@@ -2436,17 +2436,17 @@
 		"languageCodes": ["fr"],
 		"translations": {
 			"de": "Franz\u00f6sische S\u00fcd- und Antarktisgebiete",
-			"es": "Tierras Australes y Antárticas Francesas",
+			"es": "Tierras Australes y Ant\u00e1rticas Francesas",
 			"fr": "Terres australes et antarctiques fran\u00e7aises",
 			"it": "Territori Francesi del Sud",
 			"ja": "\u30d5\u30e9\u30f3\u30b9\u9818\u5357\u65b9\u30fb\u5357\u6975\u5730\u57df",
 			"nl": "Franse Gebieden in de zuidelijke Indische Oceaan",
 			"hr": "Francuski ju\u017eni i antarkti\u010dki teritoriji"
 		},
-		"population": 140,
 		"latlng": [-49.25, 69.167],
 		"demonym": "French",
-		"borders": []
+		"borders": [],
+		"area": 7747
 	},
 	{
 		"name": "Gabon",
@@ -2473,10 +2473,10 @@
 			"nl": "Gabon",
 			"hr": "Gabon"
 		},
-		"population": 1672000,
 		"latlng": [-1, 11.75],
 		"demonym": "Gabonese",
-		"borders": ["CMR", "COG", "GNQ"]
+		"borders": ["CMR", "COG", "GNQ"],
+		"area": 267668
 	},
 	{
 		"name": "Gambia",
@@ -2503,10 +2503,10 @@
 			"nl": "Gambia",
 			"hr": "Gambija"
 		},
-		"population": 1782893,
 		"latlng": [13.46666666, -16.56666666],
 		"demonym": "Gambian",
-		"borders": ["SEN"]
+		"borders": ["SEN"],
+		"area": -1
 	},
 	{
 		"name": "Georgia",
@@ -2533,10 +2533,10 @@
 			"nl": "Georgi\u00eb",
 			"hr": "Gruzija"
 		},
-		"population": 4942157,
 		"latlng": [42, 43.5],
 		"demonym": "Georgian",
-		"borders": ["ARM", "AZE", "RUS", "TUR"]
+		"borders": ["ARM", "AZE", "RUS", "TUR"],
+		"area": -1
 	},
 	{
 		"name": "Germany",
@@ -2563,10 +2563,10 @@
 			"nl": "Duitsland",
 			"hr": "Njema\u010dka"
 		},
-		"population": 80523700,
 		"latlng": [51, 9],
 		"demonym": "German",
-		"borders": ["AUT", "BEL", "CZE", "DNK", "FRA", "LUX", "NLD", "POL", "CHE"]
+		"borders": ["AUT", "BEL", "CZE", "DNK", "FRA", "LUX", "NLD", "POL", "CHE"],
+		"area": 357114
 	},
 	{
 		"name": "Ghana",
@@ -2593,10 +2593,10 @@
 			"nl": "Ghana",
 			"hr": "Gana"
 		},
-		"population": 24658823,
 		"latlng": [8, -2],
 		"demonym": "Ghanaian",
-		"borders": ["BFA", "CIV", "TGO"]
+		"borders": ["BFA", "CIV", "TGO"],
+		"area": 238533
 	},
 	{
 		"name": "Gibraltar",
@@ -2623,10 +2623,10 @@
 			"nl": "Gibraltar",
 			"hr": "Gibraltar"
 		},
-		"population": 29752,
 		"latlng": [36.13333333, -5.35],
 		"demonym": "Gibraltar",
-		"borders": ["ESP"]
+		"borders": ["ESP"],
+		"area": 6
 	},
 	{
 		"name": "Greece",
@@ -2653,10 +2653,10 @@
 			"nl": "Griekenland",
 			"hr": "Gr\u010dka"
 		},
-		"population": 10815197,
 		"latlng": [39, 22],
 		"demonym": "Greek",
-		"borders": ["ALB", "BGR", "TUR", "MKD"]
+		"borders": ["ALB", "BGR", "TUR", "MKD"],
+		"area": 131990
 	},
 	{
 		"name": "Greenland",
@@ -2683,10 +2683,10 @@
 			"nl": "Groenland",
 			"hr": "Grenland"
 		},
-		"population": 56370,
 		"latlng": [72, -40],
 		"demonym": "Greenlandic",
-		"borders": []
+		"borders": [],
+		"area": 2166086
 	},
 	{
 		"name": "Grenada",
@@ -2713,10 +2713,10 @@
 			"nl": "Grenada",
 			"hr": "Grenada"
 		},
-		"population": 103328,
 		"latlng": [12.11666666, -61.66666666],
 		"demonym": "Grenadian",
-		"borders": []
+		"borders": [],
+		"area": 344
 	},
 	{
 		"name": "Guadeloupe",
@@ -2743,10 +2743,10 @@
 			"nl": "Guadeloupe",
 			"hr": "Gvadalupa"
 		},
-		"population": 403355,
 		"latlng": [16.25, -61.583333],
 		"demonym": "Guadeloupian",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "Guam",
@@ -2773,10 +2773,10 @@
 			"nl": "Guam",
 			"hr": "Guam"
 		},
-		"population": 159358,
 		"latlng": [13.46666666, 144.78333333],
 		"demonym": "Guamanian",
-		"borders": []
+		"borders": [],
+		"area": 549
 	},
 	{
 		"name": "Guatemala",
@@ -2803,10 +2803,10 @@
 			"nl": "Guatemala",
 			"hr": "Gvatemala"
 		},
-		"population": 15438384,
 		"latlng": [15.5, -90.25],
 		"demonym": "Guatemalan",
-		"borders": ["BLZ", "SLV", "HND", "MEX"]
+		"borders": ["BLZ", "SLV", "HND", "MEX"],
+		"area": 108889
 	},
 	{
 		"name": "Guernsey",
@@ -2833,10 +2833,10 @@
 			"nl": "Guernsey",
 			"hr": "Guernsey"
 		},
-		"population": 62431,
 		"latlng": [49.46666666, -2.58333333],
 		"demonym": "Channel Islander",
-		"borders": []
+		"borders": [],
+		"area": 78
 	},
 	{
 		"name": "Guinea",
@@ -2863,10 +2863,10 @@
 			"nl": "Guinee",
 			"hr": "Gvineja"
 		},
-		"population": 10824200,
 		"latlng": [11, -10],
 		"demonym": "Guinean",
-		"borders": ["CIV", "GNB", "LBR", "MLI", "SEN", "SLE"]
+		"borders": ["CIV", "GNB", "LBR", "MLI", "SEN", "SLE"],
+		"area": 245857
 	},
 	{
 		"name": "Guinea-Bissau",
@@ -2893,10 +2893,10 @@
 			"nl": "Guinee-Bissau",
 			"hr": "Gvineja Bisau"
 		},
-		"population": 1704000,
 		"latlng": [12, -15],
 		"demonym": "Guinea-Bissauan",
-		"borders": ["GIN", "SEN"]
+		"borders": ["GIN", "SEN"],
+		"area": 36125
 	},
 	{
 		"name": "Guyana",
@@ -2923,10 +2923,10 @@
 			"nl": "Guyana",
 			"hr": "Gvajana"
 		},
-		"population": 784894,
 		"latlng": [5, -59],
 		"demonym": "Guyanese",
-		"borders": ["BRA", "SUR", "VEN"]
+		"borders": ["BRA", "SUR", "VEN"],
+		"area": 214969
 	},
 	{
 		"name": "Haiti",
@@ -2953,10 +2953,10 @@
 			"nl": "Ha\u00efti",
 			"hr": "Haiti"
 		},
-		"population": 10413211,
 		"latlng": [19, -72.41666666],
 		"demonym": "Haitian",
-		"borders": ["DOM"]
+		"borders": ["DOM"],
+		"area": 27750
 	},
 	{
 		"name": "Heard Island and McDonald Islands",
@@ -2983,10 +2983,10 @@
 			"nl": "Heard- en McDonaldeilanden",
 			"hr": "Otok Heard i oto\u010dje McDonald"
 		},
-		"population": 0,
 		"latlng": [-53.1, 72.51666666],
 		"demonym": "Heard and McDonald Islander",
-		"borders": []
+		"borders": [],
+		"area": 412
 	},
 	{
 		"name": "Vatican City",
@@ -3013,10 +3013,10 @@
 			"nl": "Vaticaanstad",
 			"hr": "Vatikan"
 		},
-		"population": 800,
 		"latlng": [41.9, 12.45],
 		"demonym": "Italian",
-		"borders": ["ITA"]
+		"borders": ["ITA"],
+		"area": 0.44
 	},
 	{
 		"name": "Honduras",
@@ -3043,14 +3043,14 @@
 			"nl": "Honduras",
 			"hr": "Honduras"
 		},
-		"population": 8555072,
 		"latlng": [15, -86.5],
 		"demonym": "Honduran",
-		"borders": ["GTM", "SLV", "NIC"]
+		"borders": ["GTM", "SLV", "NIC"],
+		"area": 112492
 	},
 	{
 		"name": "Hong Kong",
-		"nativeName": "Hong Kong",
+		"nativeName": "\u9999\u6e2f",
 		"tld": [".hk"],
 		"cca2": "HK",
 		"ccn3": "344",
@@ -3058,14 +3058,14 @@
 		"currency": ["HKD"],
 		"callingCode": ["852"],
 		"capital": "City of Victoria",
-		"altSpellings": ["HK", "\u9999\u6e2f"],
+		"altSpellings": ["HK"],
 		"relevance": "0",
 		"region": "Asia",
 		"subregion": "Eastern Asia",
-		"language": ["English", "Chinese"],
-		"languageCodes": ["en", "zh"],
+		"language": ["Chinese", "English"],
+		"languageCodes": ["zh", "en"],
 		"translations": {
-			"de": "Hong Kong",
+			"de": "Hongkong",
 			"es": "Hong Kong",
 			"fr": "Hong Kong",
 			"it": "Hong Kong",
@@ -3073,10 +3073,10 @@
 			"nl": "Hongkong",
 			"hr": "Hong Kong"
 		},
-		"population": 7184000,
-		"latlng": [22.25, 114.16666666],
-		"demonym": "Chinese",
-		"borders": ["CHN"]
+		"latlng": [22.267, 114.188],
+		"demonym": "Hong Konger",
+		"borders": ["CHN"],
+		"area": 1104
 	},
 	{
 		"name": "Hungary",
@@ -3103,10 +3103,10 @@
 			"nl": "Hongarije",
 			"hr": "Ma\u0111arska"
 		},
-		"population": 9906000,
 		"latlng": [47, 20],
 		"demonym": "Hungarian",
-		"borders": ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"]
+		"borders": ["AUT", "HRV", "ROU", "SRB", "SVK", "SVN", "UKR"],
+		"area": 93028
 	},
 	{
 		"name": "Iceland",
@@ -3133,10 +3133,10 @@
 			"nl": "IJsland",
 			"hr": "Island"
 		},
-		"population": 325010,
 		"latlng": [65, -18],
 		"demonym": "Icelander",
-		"borders": []
+		"borders": [],
+		"area": 103000
 	},
 	{
 		"name": "India",
@@ -3163,10 +3163,10 @@
 			"nl": "India",
 			"hr": "Indija"
 		},
-		"population": 1236670000,
 		"latlng": [20, 77],
 		"demonym": "Indian",
-		"borders": ["AFG", "BGD", "BTN", "MMR", "CHN", "NPL", "PAK", "LKA"]
+		"borders": ["AFG", "BGD", "BTN", "MMR", "CHN", "NPL", "PAK", "LKA"],
+		"area": 3287590
 	},
 	{
 		"name": "Indonesia",
@@ -3189,14 +3189,14 @@
 			"nl": "Indonesi\u00eb",
 			"de": "Indonesien",
 			"it": "Indonesia",
-			"ja": "\u30A4\u30F3\u30C9\u30CD\u30B7\u30A2",
+			"ja": "\u30a4\u30f3\u30c9\u30cd\u30b7\u30a2",
 			"es": "Indonesia",
 			"hr": "Indonezija"
 		},
-		"population": 237641326,
 		"latlng": [-5, 120],
 		"demonym": "Indonesian",
-		"borders": ["TLS", "MYS", "PNG"]
+		"borders": ["TLS", "MYS", "PNG"],
+		"area": 1904569
 	},
 	{
 		"name": "Ivory Coast",
@@ -3223,10 +3223,10 @@
 			"nl": "Ivoorkust",
 			"hr": "Obala Bjelokosti"
 		},
-		"population": 22400835,
 		"latlng": [8, -5],
 		"demonym": "Ivorian",
-		"borders": ["BFA", "GHA", "GIN", "LBR", "MLI"]
+		"borders": ["BFA", "GHA", "GIN", "LBR", "MLI"],
+		"area": 322463
 	},
 	{
 		"name": "Iran",
@@ -3252,10 +3252,10 @@
 			"nl": "Iran",
 			"hr": "Iran"
 		},
-		"population": 77068000,
 		"latlng": [32, 53],
 		"demonym": "Iranian",
-		"borders": ["AFG", "ARM", "AZE", "IRQ", "PAK", "TUR", "TKM"]
+		"borders": ["AFG", "ARM", "AZE", "IRQ", "PAK", "TUR", "TKM"],
+		"area": 1648195
 	},
 	{
 		"name": "Iraq",
@@ -3282,10 +3282,10 @@
 			"nl": "Irak",
 			"hr": "Irak"
 		},
-		"population": 36004552,
 		"latlng": [33, 44],
 		"demonym": "Iraqi",
-		"borders": ["IRN", "JOR", "KWT", "SAU", "SYR", "TUR"]
+		"borders": ["IRN", "JOR", "KWT", "SAU", "SYR", "TUR"],
+		"area": 438317
 	},
 	{
 		"name": "Ireland",
@@ -3312,10 +3312,10 @@
 			"nl": "Ierland",
 			"hr": "Irska"
 		},
-		"population": 6378000,
 		"latlng": [53, -8],
 		"demonym": "Irish",
-		"borders": ["GBR"]
+		"borders": ["GBR"],
+		"area": 70273
 	},
 	{
 		"name": "Isle of Man",
@@ -3342,10 +3342,10 @@
 			"nl": "Isle of Man",
 			"hr": "Otok Man"
 		},
-		"population": 84497,
 		"latlng": [54.25, -4.5],
 		"demonym": "Manx",
-		"borders": []
+		"borders": [],
+		"area": 572
 	},
 	{
 		"name": "Israel",
@@ -3372,10 +3372,10 @@
 			"nl": "Isra\u00ebl",
 			"hr": "Izrael"
 		},
-		"population": 8092700,
 		"latlng": [31.5, 34.75],
 		"demonym": "Israeli",
-		"borders": ["EGY", "JOR", "LBN", "SYR"]
+		"borders": ["EGY", "JOR", "LBN", "SYR"],
+		"area": 20770
 	},
 	{
 		"name": "Italy",
@@ -3402,10 +3402,10 @@
 			"nl": "Itali\u00eb",
 			"hr": "Italija"
 		},
-		"population": 59829079,
 		"latlng": [42.83333333, 12.83333333],
 		"demonym": "Italian",
-		"borders": ["AUT", "FRA", "SMR", "SVN", "CHE", "VAT"]
+		"borders": ["AUT", "FRA", "SMR", "SVN", "CHE", "VAT"],
+		"area": 301336
 	},
 	{
 		"name": "Jamaica",
@@ -3432,10 +3432,10 @@
 			"nl": "Jamaica",
 			"hr": "Jamajka"
 		},
-		"population": 2711476,
 		"latlng": [18.25, -77.5],
 		"demonym": "Jamaican",
-		"borders": []
+		"borders": [],
+		"area": 10991
 	},
 	{
 		"name": "Japan",
@@ -3462,10 +3462,10 @@
 			"nl": "Japan",
 			"hr": "Japan"
 		},
-		"population": 127290000,
 		"latlng": [36, 138],
 		"demonym": "Japanese",
-		"borders": []
+		"borders": [],
+		"area": 377930
 	},
 	{
 		"name": "Jersey",
@@ -3492,10 +3492,10 @@
 			"nl": "Jersey",
 			"hr": "Jersey"
 		},
-		"population": 97857,
 		"latlng": [49.25, -2.16666666],
 		"demonym": "Channel Islander",
-		"borders": []
+		"borders": [],
+		"area": 116
 	},
 	{
 		"name": "Jordan",
@@ -3522,10 +3522,10 @@
 			"nl": "Jordani\u00eb",
 			"hr": "Jordan"
 		},
-		"population": 6512600,
 		"latlng": [31, 36],
 		"demonym": "Jordanian",
-		"borders": ["IRQ", "ISR", "SAU", "SYR"]
+		"borders": ["IRQ", "ISR", "SAU", "SYR"],
+		"area": 89342
 	},
 	{
 		"name": "Kazakhstan",
@@ -3552,10 +3552,10 @@
 			"nl": "Kazachstan",
 			"hr": "Kazahstan"
 		},
-		"population": 17099000,
 		"latlng": [48, 68],
 		"demonym": "Kazakhstani",
-		"borders": ["CHN", "KGZ", "RUS", "TKM", "UZB"]
+		"borders": ["CHN", "KGZ", "RUS", "TKM", "UZB"],
+		"area": 2724900
 	},
 	{
 		"name": "Kenya",
@@ -3582,10 +3582,10 @@
 			"nl": "Kenia",
 			"hr": "Kenija"
 		},
-		"population": 44354000,
 		"latlng": [1, 38],
 		"demonym": "Kenyan",
-		"borders": ["ETH", "SOM", "SSD", "TZA", "UGA"]
+		"borders": ["ETH", "SOM", "SSD", "TZA", "UGA"],
+		"area": 580367
 	},
 	{
 		"name": "Kiribati",
@@ -3612,10 +3612,10 @@
 			"nl": "Kiribati",
 			"hr": "Kiribati"
 		},
-		"population": 106461,
 		"latlng": [1.41666666, 173],
 		"demonym": "I-Kiribati",
-		"borders": []
+		"borders": [],
+		"area": 811
 	},
 	{
 		"name": "Kuwait",
@@ -3642,10 +3642,10 @@
 			"nl": "Koeweit",
 			"hr": "Kuvajt"
 		},
-		"population": 3582054,
 		"latlng": [29.5, 45.75],
 		"demonym": "Kuwaiti",
-		"borders": ["IRN", "SAU"]
+		"borders": ["IRN", "SAU"],
+		"area": 17818
 	},
 	{
 		"name": "Kyrgyzstan",
@@ -3672,10 +3672,10 @@
 			"nl": "Kirgizi\u00eb",
 			"hr": "Kirgistan"
 		},
-		"population": 5551900,
 		"latlng": [41, 75],
 		"demonym": "Kirghiz",
-		"borders": ["CHN", "KAZ", "TJK", "UZB"]
+		"borders": ["CHN", "KAZ", "TJK", "UZB"],
+		"area": 199951
 	},
 	{
 		"name": "Laos",
@@ -3698,14 +3698,14 @@
 			"nl": "Laos",
 			"de": "Laos",
 			"it": "Laos",
-			"ja": "\u30E9\u30AA\u30B9\u4EBA\u6C11\u6C11\u4E3B\u5171\u548C\u56FD",
+			"ja": "\u30e9\u30aa\u30b9\u4eba\u6c11\u6c11\u4e3b\u5171\u548c\u56fd",
 			"es": "Laos",
 			"hr": "Laos"
 		},
-		"population": 6580800,
 		"latlng": [18, 105],
 		"demonym": "Laotian",
-		"borders": ["MMR", "KHM", "CHN", "THA", "VNM"]
+		"borders": ["MMR", "KHM", "CHN", "THA", "VNM"],
+		"area": 236800
 	},
 	{
 		"name": "Latvia",
@@ -3732,10 +3732,10 @@
 			"nl": "Letland",
 			"hr": "Latvija"
 		},
-		"population": 2014000,
 		"latlng": [57, 25],
 		"demonym": "Latvian",
-		"borders": ["BLR", "EST", "LTU", "RUS"]
+		"borders": ["BLR", "EST", "LTU", "RUS"],
+		"area": 64559
 	},
 	{
 		"name": "Lebanon",
@@ -3762,10 +3762,10 @@
 			"nl": "Libanon",
 			"hr": "Libanon"
 		},
-		"population": 4822000,
 		"latlng": [33.83333333, 35.83333333],
 		"demonym": "Lebanese",
-		"borders": ["ISR", "SYR"]
+		"borders": ["ISR", "SYR"],
+		"area": 10452
 	},
 	{
 		"name": "Lesotho",
@@ -3792,10 +3792,10 @@
 			"nl": "Lesotho",
 			"hr": "Lesoto"
 		},
-		"population": 2074000,
 		"latlng": [-29.5, 28.5],
 		"demonym": "Mosotho",
-		"borders": ["ZAF"]
+		"borders": ["ZAF"],
+		"area": 30355
 	},
 	{
 		"name": "Liberia",
@@ -3822,10 +3822,10 @@
 			"nl": "Liberia",
 			"hr": "Liberija"
 		},
-		"population": 4294000,
 		"latlng": [6.5, -9.5],
 		"demonym": "Liberian",
-		"borders": ["GIN", "CIV", "SLE"]
+		"borders": ["GIN", "CIV", "SLE"],
+		"area": 111369
 	},
 	{
 		"name": "Libya",
@@ -3852,10 +3852,10 @@
 			"nl": "Libi\u00eb",
 			"hr": "Libija"
 		},
-		"population": 6202000,
 		"latlng": [25, 17],
 		"demonym": "Libyan",
-		"borders": ["DZA", "TCD", "EGY", "NER", "SDN", "TUN"]
+		"borders": ["DZA", "TCD", "EGY", "NER", "SDN", "TUN"],
+		"area": 1759540
 	},
 	{
 		"name": "Liechtenstein",
@@ -3882,10 +3882,10 @@
 			"nl": "Liechtenstein",
 			"hr": "Lihten\u0161tajn"
 		},
-		"population": 36842,
 		"latlng": [47.26666666, 9.53333333],
 		"demonym": "Liechtensteiner",
-		"borders": ["AUT", "CHE"]
+		"borders": ["AUT", "CHE"],
+		"area": 160
 	},
 	{
 		"name": "Lithuania",
@@ -3912,10 +3912,10 @@
 			"nl": "Litouwen",
 			"hr": "Litva"
 		},
-		"population": 2950684,
 		"latlng": [56, 24],
 		"demonym": "Lithuanian",
-		"borders": ["BLR", "LVA", "POL", "RUS"]
+		"borders": ["BLR", "LVA", "POL", "RUS"],
+		"area": 65300
 	},
 	{
 		"name": "Luxembourg",
@@ -3942,10 +3942,10 @@
 			"nl": "Luxemburg",
 			"hr": "Luksemburg"
 		},
-		"population": 537000,
 		"latlng": [49.75, 6.16666666],
 		"demonym": "Luxembourger",
-		"borders": ["BEL", "FRA", "DEU"]
+		"borders": ["BEL", "FRA", "DEU"],
+		"area": 2586
 	},
 	{
 		"name": "Macau",
@@ -3972,10 +3972,10 @@
 			"nl": "Macao",
 			"hr": "Makao"
 		},
-		"population": 591900,
 		"latlng": [22.16666666, 113.55],
 		"demonym": "Chinese",
-		"borders": ["CHN"]
+		"borders": ["CHN"],
+		"area": 30
 	},
 	{
 		"name": "Macedonia",
@@ -4002,10 +4002,10 @@
 			"nl": "Macedoni\u00eb",
 			"hr": "Makedonija"
 		},
-		"population": 2058539,
 		"latlng": [41.83333333, 22],
 		"demonym": "Macedonian",
-		"borders": ["ALB", "BGR", "GRC", "KOS", "SRB"]
+		"borders": ["ALB", "BGR", "GRC", "KOS", "SRB"],
+		"area": 25713
 	},
 	{
 		"name": "Madagascar",
@@ -4032,10 +4032,10 @@
 			"nl": "Madagaskar",
 			"hr": "Madagaskar"
 		},
-		"population": 20696070,
 		"latlng": [-20, 47],
 		"demonym": "Malagasy",
-		"borders": []
+		"borders": [],
+		"area": 587041
 	},
 	{
 		"name": "Malawi",
@@ -4062,10 +4062,10 @@
 			"nl": "Malawi",
 			"hr": "Malavi"
 		},
-		"population": 16363000,
 		"latlng": [-13.5, 34],
 		"demonym": "Malawian",
-		"borders": ["MOZ", "TZA", "ZMB"]
+		"borders": ["MOZ", "TZA", "ZMB"],
+		"area": 118484
 	},
 	{
 		"name": "Malaysia",
@@ -4088,14 +4088,14 @@
 			"nl": "Maleisi\u00eb",
 			"de": "Malaysia",
 			"it": "Malesia",
-			"ja": "\u30DE\u30EC\u30FC\u30B7\u30A2",
+			"ja": "\u30de\u30ec\u30fc\u30b7\u30a2",
 			"es": "Malasia",
 			"hr": "Malezija"
 		},
-		"population": 29793600,
 		"latlng": [2.5, 112.5],
 		"demonym": "Malaysian",
-		"borders": ["BRN", "IDN", "THA"]
+		"borders": ["BRN", "IDN", "THA"],
+		"area": 330803
 	},
 	{
 		"name": "Maldives",
@@ -4122,10 +4122,10 @@
 			"nl": "Maldiven",
 			"hr": "Maldivi"
 		},
-		"population": 317280,
 		"latlng": [3.25, 73],
 		"demonym": "Maldivan",
-		"borders": []
+		"borders": [],
+		"area": 300
 	},
 	{
 		"name": "Mali",
@@ -4152,10 +4152,10 @@
 			"nl": "Mali",
 			"hr": "Mali"
 		},
-		"population": 15302000,
 		"latlng": [17, -4],
 		"demonym": "Malian",
-		"borders": ["DZA", "BFA", "GIN", "CIV", "MRT", "NER", "SEN"]
+		"borders": ["DZA", "BFA", "GIN", "CIV", "MRT", "NER", "SEN"],
+		"area": 1240192
 	},
 	{
 		"name": "Malta",
@@ -4182,10 +4182,10 @@
 			"nl": "Malta",
 			"hr": "Malta"
 		},
-		"population": 416055,
 		"latlng": [35.83333333, 14.58333333],
 		"demonym": "Maltese",
-		"borders": []
+		"borders": [],
+		"area": 316
 	},
 	{
 		"name": "Marshall Islands",
@@ -4212,10 +4212,10 @@
 			"nl": "Marshalleilanden",
 			"hr": "Mar\u0161alovi Otoci"
 		},
-		"population": 56086,
 		"latlng": [9, 168],
 		"demonym": "Marshallese",
-		"borders": []
+		"borders": [],
+		"area": 181
 	},
 	{
 		"name": "Martinique",
@@ -4242,10 +4242,10 @@
 			"nl": "Martinique",
 			"hr": "Martinique"
 		},
-		"population": 394173,
 		"latlng": [14.666667, -61],
 		"demonym": "French",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "Mauritania",
@@ -4272,10 +4272,10 @@
 			"nl": "Mauritani\u00eb",
 			"hr": "Mauritanija"
 		},
-		"population": 3461041,
 		"latlng": [20, -12],
 		"demonym": "Mauritanian",
-		"borders": ["DZA", "MLI", "SEN", "ESH"]
+		"borders": ["DZA", "MLI", "SEN", "ESH"],
+		"area": 1030700
 	},
 	{
 		"name": "Mauritius",
@@ -4302,10 +4302,10 @@
 			"nl": "Mauritius",
 			"hr": "Mauricijus"
 		},
-		"population": 1257900,
 		"latlng": [-20.28333333, 57.55],
 		"demonym": "Mauritian",
-		"borders": []
+		"borders": [],
+		"area": 2040
 	},
 	{
 		"name": "Mayotte",
@@ -4332,10 +4332,10 @@
 			"nl": "Mayotte",
 			"hr": "Mayotte"
 		},
-		"population": 212600,
 		"latlng": [-12.83333333, 45.16666666],
 		"demonym": "French",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "Mexico",
@@ -4362,10 +4362,10 @@
 			"nl": "Mexico",
 			"hr": "Meksiko"
 		},
-		"population": 118395054,
 		"latlng": [23, -102],
 		"demonym": "Mexican",
-		"borders": ["BLZ", "GTM", "USA"]
+		"borders": ["BLZ", "GTM", "USA"],
+		"area": 1964375
 	},
 	{
 		"name": "Micronesia",
@@ -4392,10 +4392,10 @@
 			"nl": "Micronesi\u00eb",
 			"hr": "Mikronezija"
 		},
-		"population": 106104,
 		"latlng": [6.91666666, 158.25],
 		"demonym": "Micronesian",
-		"borders": []
+		"borders": [],
+		"area": 702
 	},
 	{
 		"name": "Moldova",
@@ -4422,10 +4422,10 @@
 			"nl": "Moldavi\u00eb",
 			"hr": "Moldova"
 		},
-		"population": 3559500,
 		"latlng": [47, 29],
 		"demonym": "Moldovan",
-		"borders": ["ROU", "UKR"]
+		"borders": ["ROU", "UKR"],
+		"area": 33846
 	},
 	{
 		"name": "Monaco",
@@ -4452,10 +4452,10 @@
 			"nl": "Monaco",
 			"hr": "Monako"
 		},
-		"population": 36136,
 		"latlng": [43.73333333, 7.4],
 		"demonym": "Monegasque",
-		"borders": ["FRA"]
+		"borders": ["FRA"],
+		"area": 2.02
 	},
 	{
 		"name": "Mongolia",
@@ -4482,10 +4482,10 @@
 			"nl": "Mongoli\u00eb",
 			"hr": "Mongolija"
 		},
-		"population": 2754685,
 		"latlng": [46, 105],
 		"demonym": "Mongolian",
-		"borders": ["CHN", "RUS"]
+		"borders": ["CHN", "RUS"],
+		"area": 1564110
 	},
 	{
 		"name": "Montenegro",
@@ -4512,10 +4512,10 @@
 			"nl": "Montenegro",
 			"hr": "Crna Gora"
 		},
-		"population": 620029,
 		"latlng": [42.5, 19.3],
 		"demonym": "Montenegrin",
-		"borders": ["ALB", "BIH", "HRV", "KOS", "SRB"]
+		"borders": ["ALB", "BIH", "HRV", "KOS", "SRB"],
+		"area": 13812
 	},
 	{
 		"name": "Montserrat",
@@ -4542,10 +4542,10 @@
 			"nl": "Montserrat",
 			"hr": "Montserrat"
 		},
-		"population": 4922,
 		"latlng": [16.75, -62.2],
 		"demonym": "Montserratian",
-		"borders": []
+		"borders": [],
+		"area": 102
 	},
 	{
 		"name": "Morocco",
@@ -4572,10 +4572,10 @@
 			"nl": "Marokko",
 			"hr": "Maroko"
 		},
-		"population": 33087700,
 		"latlng": [32, -5],
 		"demonym": "Moroccan",
-		"borders": ["DZA", "ESH", "ESP"]
+		"borders": ["DZA", "ESH", "ESP"],
+		"area": 446550
 	},
 	{
 		"name": "Mozambique",
@@ -4602,10 +4602,10 @@
 			"nl": "Mozambique",
 			"hr": "Mozambik"
 		},
-		"population": 23700715,
 		"latlng": [-18.25, 35],
 		"demonym": "Mozambican",
-		"borders": ["MWI", "ZAF", "SWZ", "TZA", "ZMB", "ZWE"]
+		"borders": ["MWI", "ZAF", "SWZ", "TZA", "ZMB", "ZWE"],
+		"area": 801590
 	},
 	{
 		"name": "Myanmar",
@@ -4632,10 +4632,10 @@
 			"es": "Myanmar",
 			"hr": "Mijanmar"
 		},
-		"population": 61120000,
 		"latlng": [22, 98],
 		"demonym": "Myanmarian",
-		"borders": ["BGD", "CHN", "IND", "LAO", "THA"]
+		"borders": ["BGD", "CHN", "IND", "LAO", "THA"],
+		"area": -1
 	},
 	{
 		"name": "Namibia",
@@ -4662,10 +4662,10 @@
 			"nl": "Namibi\u00eb",
 			"hr": "Namibija"
 		},
-		"population": 2113077,
 		"latlng": [-22, 17],
 		"demonym": "Namibian",
-		"borders": ["AGO", "BWA", "ZAF", "ZMB"]
+		"borders": ["AGO", "BWA", "ZAF", "ZMB"],
+		"area": 825615
 	},
 	{
 		"name": "Nauru",
@@ -4692,10 +4692,10 @@
 			"nl": "Nauru",
 			"hr": "Nauru"
 		},
-		"population": 9945,
 		"latlng": [-0.53333333, 166.91666666],
 		"demonym": "Nauruan",
-		"borders": []
+		"borders": [],
+		"area": 21
 	},
 	{
 		"name": "Nepal",
@@ -4722,10 +4722,10 @@
 			"nl": "Nepal",
 			"hr": "Nepal"
 		},
-		"population": 26494504,
 		"latlng": [28, 84],
 		"demonym": "Nepalese",
-		"borders": ["CHN", "IND"]
+		"borders": ["CHN", "IND"],
+		"area": 147181
 	},
 	{
 		"name": "Netherlands",
@@ -4752,10 +4752,10 @@
 			"nl": "Nederland",
 			"hr": "Nizozemska"
 		},
-		"population": 16807300,
 		"latlng": [52.5, 5.75],
 		"demonym": "Dutch",
-		"borders": ["BEL", "DEU"]
+		"borders": ["BEL", "DEU"],
+		"area": 41850
 	},
 	{
 		"name": "New Caledonia",
@@ -4782,10 +4782,10 @@
 			"nl": "Nieuw-Caledoni\u00eb",
 			"hr": "Nova Kaledonija"
 		},
-		"population": 258958,
 		"latlng": [-21.5, 165.5],
 		"demonym": "New Caledonian",
-		"borders": []
+		"borders": [],
+		"area": 18575
 	},
 	{
 		"name": "New Zealand",
@@ -4808,14 +4808,14 @@
 			"nl": "Nieuw-Zeeland",
 			"de": "Neuseeland",
 			"it": "Nuova Zelanda",
-			"ja": "\u30CB\u30E5\u30FC\u30B8\u30FC\u30E9\u30F3\u30C9",
+			"ja": "\u30cb\u30e5\u30fc\u30b8\u30fc\u30e9\u30f3\u30c9",
 			"es": "Nueva Zelanda",
 			"hr": "Novi Zeland"
 		},
-		"population": 4478810,
 		"latlng": [-41, 174],
 		"demonym": "New Zealander",
-		"borders": []
+		"borders": [],
+		"area": 270467
 	},
 	{
 		"name": "Nicaragua",
@@ -4842,10 +4842,10 @@
 			"nl": "Nicaragua",
 			"hr": "Nikaragva"
 		},
-		"population": 6071045,
 		"latlng": [13, -85],
 		"demonym": "Nicaraguan",
-		"borders": ["CRI", "HND"]
+		"borders": ["CRI", "HND"],
+		"area": 130373
 	},
 	{
 		"name": "Niger",
@@ -4872,10 +4872,10 @@
 			"nl": "Niger",
 			"hr": "Niger"
 		},
-		"population": 17129076,
 		"latlng": [16, 8],
 		"demonym": "Nigerian",
-		"borders": ["DZA", "BEN", "BFA", "TCD", "LBY", "MLI", "NGA"]
+		"borders": ["DZA", "BEN", "BFA", "TCD", "LBY", "MLI", "NGA"],
+		"area": 1267000
 	},
 	{
 		"name": "Nigeria",
@@ -4902,10 +4902,10 @@
 			"nl": "Nigeria",
 			"hr": "Nigerija"
 		},
-		"population": 173615000,
 		"latlng": [10, 8],
 		"demonym": "Nigerian",
-		"borders": ["BEN", "CMR", "TCD", "NER"]
+		"borders": ["BEN", "CMR", "TCD", "NER"],
+		"area": 923768
 	},
 	{
 		"name": "Niue",
@@ -4932,10 +4932,10 @@
 			"nl": "Niue",
 			"hr": "Niue"
 		},
-		"population": 1613,
 		"latlng": [-19.03333333, -169.86666666],
 		"demonym": "Niuean",
-		"borders": []
+		"borders": [],
+		"area": 260
 	},
 	{
 		"name": "Norfolk Island",
@@ -4958,14 +4958,14 @@
 			"nl": "Norfolkeiland",
 			"de": "Norfolkinsel",
 			"it": "Isola Norfolk",
-			"ja": "\u30CE\u30FC\u30D5\u30A9\u30FC\u30AF\u5CF6",
+			"ja": "\u30ce\u30fc\u30d5\u30a9\u30fc\u30af\u5cf6",
 			"es": "Isla de Norfolk",
 			"hr": "Otok Norfolk"
 		},
-		"population": 2302,
 		"latlng": [-29.03333333, 167.95],
 		"demonym": "Norfolk Islander",
-		"borders": []
+		"borders": [],
+		"area": 36
 	},
 	{
 		"name": "North Korea",
@@ -4992,10 +4992,10 @@
 			"nl": "Noord-Korea",
 			"hr": "Sjeverna Koreja"
 		},
-		"population": 24895000,
 		"latlng": [40, 127],
 		"demonym": "North Korean",
-		"borders": ["CHN", "KOR", "RUS"]
+		"borders": ["CHN", "KOR", "RUS"],
+		"area": 120538
 	},
 	{
 		"name": "Northern Mariana Islands",
@@ -5022,10 +5022,10 @@
 			"nl": "Noordelijke Marianeneilanden",
 			"hr": "Sjevernomarijanski otoci"
 		},
-		"population": 53883,
 		"latlng": [15.2, 145.75],
 		"demonym": "American",
-		"borders": []
+		"borders": [],
+		"area": 464
 	},
 	{
 		"name": "Norway",
@@ -5041,8 +5041,8 @@
 		"relevance": "1.5",
 		"region": "Europe",
 		"subregion": "Northern Europe",
-		"language": ["Norwegian"],
-		"languageCodes": ["no"],
+		"language": ["Norwegian", "Bokm\u00e5l", "Nynorsk"],
+		"languageCodes": ["no", "nb", "nn"],
 		"translations": {
 			"de": "Norwegen",
 			"es": "Noruega",
@@ -5052,10 +5052,10 @@
 			"nl": "Noorwegen",
 			"hr": "Norve\u0161ka"
 		},
-		"population": 5077798,
 		"latlng": [62, 10],
 		"demonym": "Norwegian",
-		"borders": ["FIN", "SWE", "RUS"]
+		"borders": ["FIN", "SWE", "RUS"],
+		"area": 323802
 	},
 	{
 		"name": "Oman",
@@ -5082,10 +5082,10 @@
 			"nl": "Oman",
 			"hr": "Oman"
 		},
-		"population": 3929000,
 		"latlng": [21, 57],
 		"demonym": "Omani",
-		"borders": ["SAU", "ARE", "YEM"]
+		"borders": ["SAU", "ARE", "YEM"],
+		"area": 309500
 	},
 	{
 		"name": "Pakistan",
@@ -5112,10 +5112,10 @@
 			"nl": "Pakistan",
 			"hr": "Pakistan"
 		},
-		"population": 184845000,
 		"latlng": [30, 70],
 		"demonym": "Pakistani",
-		"borders": ["AFG", "CHN", "IND", "IRN"]
+		"borders": ["AFG", "CHN", "IND", "IRN"],
+		"area": 881912
 	},
 	{
 		"name": "Palau",
@@ -5142,10 +5142,10 @@
 			"nl": "Palau",
 			"hr": "Palau"
 		},
-		"population": 20901,
 		"latlng": [7.5, 134.5],
 		"demonym": "Palauan",
-		"borders": []
+		"borders": [],
+		"area": 459
 	},
 	{
 		"name": "Palestine",
@@ -5172,10 +5172,10 @@
 			"nl": "Palestijnse gebieden",
 			"hr": "Palestina"
 		},
-		"population": 4550368,
 		"latlng": [31.9, 35.2],
 		"demonym": "Palestinian",
-		"borders": ["ISR", "EGY", "JOR"]
+		"borders": ["ISR", "EGY", "JOR"],
+		"area": -1
 	},
 	{
 		"name": "Panama",
@@ -5202,10 +5202,10 @@
 			"nl": "Panama",
 			"hr": "Panama"
 		},
-		"population": 3405813,
 		"latlng": [9, -80],
 		"demonym": "Panamanian",
-		"borders": ["COL", "CRI"]
+		"borders": ["COL", "CRI"],
+		"area": 75417
 	},
 	{
 		"name": "Papua New Guinea",
@@ -5232,10 +5232,10 @@
 			"nl": "Papoea-Nieuw-Guinea",
 			"hr": "Papua Nova Gvineja"
 		},
-		"population": 7059653,
 		"latlng": [-6, 147],
 		"demonym": "Papua New Guinean",
-		"borders": ["IDN"]
+		"borders": ["IDN"],
+		"area": 462840
 	},
 	{
 		"name": "Paraguay",
@@ -5262,10 +5262,10 @@
 			"nl": "Paraguay",
 			"hr": "Paragvaj"
 		},
-		"population": 6783374,
 		"latlng": [-23, -58],
 		"demonym": "Paraguayan",
-		"borders": ["ARG", "BOL", "BRA"]
+		"borders": ["ARG", "BOL", "BRA"],
+		"area": 406752
 	},
 	{
 		"name": "Peru",
@@ -5292,10 +5292,10 @@
 			"nl": "Peru",
 			"hr": "Peru"
 		},
-		"population": 30475144,
 		"latlng": [-10, -76],
 		"demonym": "Peruvian",
-		"borders": ["BOL", "BRA", "CHL", "COL", "ECU"]
+		"borders": ["BOL", "BRA", "CHL", "COL", "ECU"],
+		"area": 1285216
 	},
 	{
 		"name": "Philippines",
@@ -5318,14 +5318,14 @@
 			"nl": "Filipijnen",
 			"de": "Philippinen",
 			"it": "Filippine",
-			"ja": "\u30D5\u30A3\u30EA\u30D4\u30F3",
+			"ja": "\u30d5\u30a3\u30ea\u30d4\u30f3",
 			"es": "Filipinas",
 			"hr": "Filipini"
 		},
-		"population": 98678000,
 		"latlng": [13, 122],
 		"demonym": "Filipino",
-		"borders": []
+		"borders": [],
+		"area": 342353
 	},
 	{
 		"name": "Pitcairn Islands",
@@ -5352,10 +5352,10 @@
 			"nl": "Pitcairneilanden",
 			"hr": "Pitcairnovo oto\u010dje"
 		},
-		"population": 56,
 		"latlng": [-25.06666666, -130.1],
 		"demonym": "Pitcairn Islander",
-		"borders": []
+		"borders": [],
+		"area": 47
 	},
 	{
 		"name": "Poland",
@@ -5382,10 +5382,10 @@
 			"nl": "Polen",
 			"hr": "Poljska"
 		},
-		"population": 38533299,
 		"latlng": [52, 20],
 		"demonym": "Polish",
-		"borders": ["BLR", "CZE", "DEU", "LTU", "RUS", "SVK", "UKR"]
+		"borders": ["BLR", "CZE", "DEU", "LTU", "RUS", "SVK", "UKR"],
+		"area": 312679
 	},
 	{
 		"name": "Portugal",
@@ -5412,10 +5412,10 @@
 			"nl": "Portugal",
 			"hr": "Portugal"
 		},
-		"population": 10562178,
 		"latlng": [39.5, -8],
 		"demonym": "Portuguese",
-		"borders": ["ESP"]
+		"borders": ["ESP"],
+		"area": 92090
 	},
 	{
 		"name": "Puerto Rico",
@@ -5442,10 +5442,10 @@
 			"nl": "Puerto Rico",
 			"hr": "Portoriko"
 		},
-		"population": 3667084,
 		"latlng": [18.25, -66.5],
 		"demonym": "Puerto Rican",
-		"borders": []
+		"borders": [],
+		"area": 8870
 	},
 	{
 		"name": "Qatar",
@@ -5472,10 +5472,10 @@
 			"nl": "Qatar",
 			"hr": "Katar"
 		},
-		"population": 2024707,
 		"latlng": [25.5, 51.25],
 		"demonym": "Qatari",
-		"borders": ["SAU"]
+		"borders": ["SAU"],
+		"area": 11586
 	},
 	{
 		"name": "Republic of Kosovo",
@@ -5497,10 +5497,10 @@
 			"es": "Kosovo",
 			"hr": "Kosovo"
 		},
-		"population": 1733842,
 		"latlng": [42.666667, 21.166667],
 		"demonym": "Kosovar",
-		"borders": ["ALB", "MKD", "MNE", "SRB"]
+		"borders": ["ALB", "MKD", "MNE", "SRB"],
+		"area": -1
 	},
 	{
 		"name": "R\u00e9union",
@@ -5527,10 +5527,10 @@
 			"nl": "R\u00e9union",
 			"hr": "R\u00e9union"
 		},
-		"population": 821136,
 		"latlng": [-21.15, 55.5],
 		"demonym": "French",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "Romania",
@@ -5557,10 +5557,10 @@
 			"nl": "Roemeni\u00eb",
 			"hr": "Rumunjska"
 		},
-		"population": 20121641,
 		"latlng": [46, 25],
 		"demonym": "Romanian",
-		"borders": ["BGR", "HUN", "MDA", "SRB", "UKR"]
+		"borders": ["BGR", "HUN", "MDA", "SRB", "UKR"],
+		"area": 238391
 	},
 	{
 		"name": "Russia",
@@ -5587,10 +5587,10 @@
 			"nl": "Rusland",
 			"hr": "Rusija"
 		},
-		"population": 143500000,
 		"latlng": [60, 100],
 		"demonym": "Russian",
-		"borders": ["AZE", "BLR", "CHN", "EST", "FIN", "GEO", "KAZ", "PRK", "LVA", "LTU", "MNG", "NOR", "POL", "UKR"]
+		"borders": ["AZE", "BLR", "CHN", "EST", "FIN", "GEO", "KAZ", "PRK", "LVA", "LTU", "MNG", "NOR", "POL", "UKR"],
+		"area": 17098242
 	},
 	{
 		"name": "Rwanda",
@@ -5617,10 +5617,10 @@
 			"nl": "Rwanda",
 			"hr": "Ruanda"
 		},
-		"population": 10537222,
 		"latlng": [-2, 30],
 		"demonym": "Rwandan",
-		"borders": ["BDI", "COD", "TZA", "UGA"]
+		"borders": ["BDI", "COD", "TZA", "UGA"],
+		"area": 26338
 	},
 	{
 		"name": "Saint Barth\u00e9lemy",
@@ -5647,10 +5647,10 @@
 			"nl": "Saint Barth\u00e9lemy",
 			"hr": "Saint Barth\u00e9lemy"
 		},
-		"population": 8938,
 		"latlng": [18.5, -63.41666666],
 		"demonym": "Saint Barth\u00e9lemy Islander",
-		"borders": []
+		"borders": [],
+		"area": 21
 	},
 	{
 		"name": "Saint Helena",
@@ -5677,10 +5677,10 @@
 			"nl": "Sint-Helena",
 			"hr": "Sveta Helena"
 		},
-		"population": 4255,
 		"latlng": [-15.95, -5.7],
 		"demonym": "Saint Helenian",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "Saint Kitts and Nevis",
@@ -5707,10 +5707,10 @@
 			"nl": "Saint Kitts en Nevis",
 			"hr": "Sveti Kristof i Nevis"
 		},
-		"population": 54000,
 		"latlng": [17.33333333, -62.75],
 		"demonym": "Kittian and Nevisian",
-		"borders": []
+		"borders": [],
+		"area": 261
 	},
 	{
 		"name": "Saint Lucia",
@@ -5737,10 +5737,10 @@
 			"nl": "Saint Lucia",
 			"hr": "Sveta Lucija"
 		},
-		"population": 166526,
 		"latlng": [13.88333333, -60.96666666],
 		"demonym": "Saint Lucian",
-		"borders": []
+		"borders": [],
+		"area": 616
 	},
 	{
 		"name": "Saint Martin",
@@ -5767,10 +5767,10 @@
 			"nl": "Saint-Martin",
 			"hr": "Sveti Martin"
 		},
-		"population": 77741,
 		"latlng": [18.08333333, -63.95],
 		"demonym": "Saint Martin Islander",
-		"borders": ["SXM", "NLD"]
+		"borders": ["SXM"],
+		"area": -1
 	},
 	{
 		"name": "Saint Pierre and Miquelon",
@@ -5797,10 +5797,10 @@
 			"nl": "Saint Pierre en Miquelon",
 			"hr": "Sveti Petar i Mikelon"
 		},
-		"population": 6081,
 		"latlng": [46.83333333, -56.33333333],
 		"demonym": "French",
-		"borders": []
+		"borders": [],
+		"area": 242
 	},
 	{
 		"name": "Saint Vincent and the Grenadines",
@@ -5827,10 +5827,10 @@
 			"nl": "Saint Vincent en de Grenadines",
 			"hr": "Sveti Vincent i Grenadini"
 		},
-		"population": 109000,
 		"latlng": [13.25, -61.2],
 		"demonym": "Saint Vincentian",
-		"borders": []
+		"borders": [],
+		"area": 389
 	},
 	{
 		"name": "Samoa",
@@ -5857,10 +5857,10 @@
 			"nl": "Samoa",
 			"hr": "Samoa"
 		},
-		"population": 187820,
 		"latlng": [-13.58333333, -172.33333333],
 		"demonym": "Samoan",
-		"borders": []
+		"borders": [],
+		"area": 2842
 	},
 	{
 		"name": "San Marino",
@@ -5887,10 +5887,10 @@
 			"nl": "San Marino",
 			"hr": "San Marino"
 		},
-		"population": 32509,
 		"latlng": [43.76666666, 12.41666666],
 		"demonym": "Sammarinese",
-		"borders": ["ITA"]
+		"borders": ["ITA"],
+		"area": 61
 	},
 	{
 		"name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
@@ -5917,10 +5917,10 @@
 			"nl": "Sao Tom\u00e9 en Principe",
 			"hr": "Sveti Toma i Princip"
 		},
-		"population": 187356,
 		"latlng": [1, 7],
 		"demonym": "Sao Tomean",
-		"borders": []
+		"borders": [],
+		"area": 964
 	},
 	{
 		"name": "Saudi Arabia",
@@ -5947,10 +5947,10 @@
 			"nl": "Saoedi-Arabi\u00eb",
 			"hr": "Saudijska Arabija"
 		},
-		"population": 29994272,
 		"latlng": [25, 45],
 		"demonym": "Saudi Arabian",
-		"borders": ["IRQ", "JOR", "KWT", "OMN", "QAT", "ARE", "YEM"]
+		"borders": ["IRQ", "JOR", "KWT", "OMN", "QAT", "ARE", "YEM"],
+		"area": 2149690
 	},
 	{
 		"name": "Senegal",
@@ -5977,10 +5977,10 @@
 			"nl": "Senegal",
 			"hr": "Senegal"
 		},
-		"population": 13567338,
 		"latlng": [14, -14],
 		"demonym": "Senegalese",
-		"borders": ["The Gambia", "GIN", "GNB", "MLI", "MRT"]
+		"borders": ["The Gambia", "GIN", "GNB", "MLI", "MRT"],
+		"area": 196722
 	},
 	{
 		"name": "Serbia",
@@ -6007,10 +6007,10 @@
 			"nl": "Servi\u00eb",
 			"hr": "Srbija"
 		},
-		"population": 7181505,
 		"latlng": [44, 21],
 		"demonym": "Serbian",
-		"borders": ["BIH", "BGR", "HRV", "HUN", "KOS", "MKD", "MNE", "ROU"]
+		"borders": ["BIH", "BGR", "HRV", "HUN", "KOS", "MKD", "MNE", "ROU"],
+		"area": 88361
 	},
 	{
 		"name": "Seychelles",
@@ -6037,10 +6037,10 @@
 			"nl": "Seychellen",
 			"hr": "Sej\u0161eli"
 		},
-		"population": 90945,
 		"latlng": [-4.58333333, 55.66666666],
 		"demonym": "Seychellois",
-		"borders": []
+		"borders": [],
+		"area": 452
 	},
 	{
 		"name": "Sierra Leone",
@@ -6067,10 +6067,10 @@
 			"nl": "Sierra Leone",
 			"hr": "Sijera Leone"
 		},
-		"population": 6190280,
 		"latlng": [8.5, -11.5],
 		"demonym": "Sierra Leonean",
-		"borders": ["GIN", "LBR"]
+		"borders": ["GIN", "LBR"],
+		"area": 71740
 	},
 	{
 		"name": "Singapore",
@@ -6093,14 +6093,14 @@
 			"nl": "Singapore",
 			"de": "Singapur",
 			"it": "Singapore",
-			"ja": "\u30B7\u30F3\u30AC\u30DD\u30FC\u30EB",
+			"ja": "\u30b7\u30f3\u30ac\u30dd\u30fc\u30eb",
 			"es": "Singapur",
 			"hr": "Singapur"
 		},
-		"population": 5399200,
 		"latlng": [1.36666666, 103.8],
 		"demonym": "Singaporean",
-		"borders": []
+		"borders": [],
+		"area": 710
 	},
 	{
 		"name": "Sint Maarten",
@@ -6121,10 +6121,10 @@
 		"translations": {
 			"nl": "Sint Maarten"
 		},
-		"population": 37429,
 		"latlng": [18.033333, -63.05],
 		"demonym": "Dutch",
-		"borders": ["MAF"]
+		"borders": ["MAF"],
+		"area": 34
 	},
 	{
 		"name": "Slovakia",
@@ -6151,10 +6151,10 @@
 			"nl": "Slowakije",
 			"hr": "Slova\u010dka"
 		},
-		"population": 5412008,
 		"latlng": [48.66666666, 19.5],
 		"demonym": "Slovak",
-		"borders": ["AUT", "CZE", "HUN", "POL", "UKR"]
+		"borders": ["AUT", "CZE", "HUN", "POL", "UKR"],
+		"area": 49037
 	},
 	{
 		"name": "Slovenia",
@@ -6181,10 +6181,10 @@
 			"nl": "Sloveni\u00eb",
 			"hr": "Slovenija"
 		},
-		"population": 2061405,
 		"latlng": [46.11666666, 14.81666666],
 		"demonym": "Slovene",
-		"borders": ["AUT", "HRV", "ITA", "HUN"]
+		"borders": ["AUT", "HRV", "ITA", "HUN"],
+		"area": 20273
 	},
 	{
 		"name": "Solomon Islands",
@@ -6211,10 +6211,10 @@
 			"nl": "Salomonseilanden",
 			"hr": "Solomonski Otoci"
 		},
-		"population": 561000,
 		"latlng": [-8, 159],
 		"demonym": "Solomon Islander",
-		"borders": []
+		"borders": [],
+		"area": 28896
 	},
 	{
 		"name": "Somalia",
@@ -6241,10 +6241,10 @@
 			"nl": "Somali\u00eb",
 			"hr": "Somalija"
 		},
-		"population": 10496000,
 		"latlng": [10, 49],
 		"demonym": "Somali",
-		"borders": ["DJI", "ETH", "KEN"]
+		"borders": ["DJI", "ETH", "KEN"],
+		"area": 637657
 	},
 	{
 		"name": "South Africa",
@@ -6271,10 +6271,10 @@
 			"nl": "Zuid-Afrika",
 			"hr": "Ju\u017enoafri\u010dka Republika"
 		},
-		"population": 52981991,
 		"latlng": [-29, 24],
 		"demonym": "South African",
-		"borders": ["BWA", "LSO", "MOZ", "NAM", "SWZ", "ZWE"]
+		"borders": ["BWA", "LSO", "MOZ", "NAM", "SWZ", "ZWE"],
+		"area": 1221037
 	},
 	{
 		"name": "South Georgia",
@@ -6301,10 +6301,10 @@
 			"nl": "Zuid-Georgia en Zuidelijke Sandwicheilanden",
 			"hr": "Ju\u017ena Georgija i oto\u010dje Ju\u017eni Sandwich"
 		},
-		"population": 30,
 		"latlng": [-54.5, -37],
 		"demonym": "South Georgia and the South Sandwich Islander",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "South Korea",
@@ -6331,10 +6331,10 @@
 			"nl": "Zuid-Korea",
 			"hr": "Ju\u017ena Koreja"
 		},
-		"population": 50219669,
 		"latlng": [37, 127.5],
 		"demonym": "South Korean",
-		"borders": ["PRK"]
+		"borders": ["PRK"],
+		"area": 100210
 	},
 	{
 		"name": "South Sudan",
@@ -6357,14 +6357,14 @@
 			"nl": "Zuid-Soedan",
 			"de": "S\u00fcdsudan",
 			"it": "Sudan del sud",
-			"ja": "\u5357\u30B9\u30FC\u30C0\u30F3",
-			"es": "Sudán del Sur",
+			"ja": "\u5357\u30b9\u30fc\u30c0\u30f3",
+			"es": "Sud\u00e1n del Sur",
 			"hr": "Ju\u017eni Sudan"
 		},
-		"population": 11296000,
 		"latlng": [7, 30],
 		"demonym": "South Sudanese",
-		"borders": ["CAF", "COD", "ETH", "KEN", "SDN", "UGA"]
+		"borders": ["CAF", "COD", "ETH", "KEN", "SDN", "UGA"],
+		"area": 619745
 	},
 	{
 		"name": "Spain",
@@ -6391,10 +6391,10 @@
 			"nl": "Spanje",
 			"hr": "\u0160panjolska"
 		},
-		"population": 46704314,
 		"latlng": [40, -4],
 		"demonym": "Spanish",
-		"borders": ["AND", "FRA", "GIB", "PRT", "MAR"]
+		"borders": ["AND", "FRA", "GIB", "PRT", "MAR"],
+		"area": 505992
 	},
 	{
 		"name": "Sri Lanka",
@@ -6421,10 +6421,10 @@
 			"nl": "Sri Lanka",
 			"hr": "\u0160ri Lanka"
 		},
-		"population": 20277597,
 		"latlng": [7, 81],
 		"demonym": "Sri Lankan",
-		"borders": ["IND"]
+		"borders": ["IND"],
+		"area": 65610
 	},
 	{
 		"name": "Sudan",
@@ -6451,10 +6451,10 @@
 			"nl": "Soedan",
 			"hr": "Sudan"
 		},
-		"population": 37964000,
 		"latlng": [15, 30],
 		"demonym": "Sudanese",
-		"borders": ["CAF", "TCD", "EGY", "ERI", "ETH", "LBY", "SSD"]
+		"borders": ["CAF", "TCD", "EGY", "ERI", "ETH", "LBY", "SSD"],
+		"area": 1886068
 	},
 	{
 		"name": "Suriname",
@@ -6481,10 +6481,10 @@
 			"nl": "Suriname",
 			"hr": "Surinam"
 		},
-		"population": 534189,
 		"latlng": [4, -56],
 		"demonym": "Surinamer",
-		"borders": ["BRA", "GUF", "FRA", "GUY"]
+		"borders": ["BRA", "GUF", "GUY"],
+		"area": 163820
 	},
 	{
 		"name": "Svalbard and Jan Mayen",
@@ -6511,10 +6511,10 @@
 			"nl": "Svalbard en Jan Mayen",
 			"hr": "Svalbard i Jan Mayen"
 		},
-		"population": 2655,
 		"latlng": [78, 20],
 		"demonym": "Norwegian",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "Swaziland",
@@ -6541,10 +6541,10 @@
 			"nl": "Swaziland",
 			"hr": "Svazi"
 		},
-		"population": 1250000,
 		"latlng": [-26.5, 31.5],
 		"demonym": "Swazi",
-		"borders": ["MOZ", "ZAF"]
+		"borders": ["MOZ", "ZAF"],
+		"area": 17364
 	},
 	{
 		"name": "Sweden",
@@ -6571,10 +6571,10 @@
 			"nl": "Zweden",
 			"hr": "\u0160vedska"
 		},
-		"population": 9625444,
 		"latlng": [62, 15],
 		"demonym": "Swedish",
-		"borders": ["FIN", "NOR"]
+		"borders": ["FIN", "NOR"],
+		"area": 450295
 	},
 	{
 		"name": "Switzerland",
@@ -6601,10 +6601,10 @@
 			"nl": "Zwitserland",
 			"hr": "\u0160vicarska"
 		},
-		"population": 8085300,
 		"latlng": [47, 8],
 		"demonym": "Swiss",
-		"borders": ["AUT", "FRA", "ITA", "LIE", "DEU"]
+		"borders": ["AUT", "FRA", "ITA", "LIE", "DEU"],
+		"area": 41284
 	},
 	{
 		"name": "Syria",
@@ -6631,10 +6631,10 @@
 			"nl": "Syri\u00eb",
 			"hr": "Sirija"
 		},
-		"population": 21898000,
 		"latlng": [35, 38],
 		"demonym": "Syrian",
-		"borders": ["IRQ", "ISR", "JOR", "LBN", "TUR"]
+		"borders": ["IRQ", "ISR", "JOR", "LBN", "TUR"],
+		"area": 185180
 	},
 	{
 		"name": "Taiwan",
@@ -6661,10 +6661,10 @@
 			"nl": "Taiwan",
 			"hr": "Tajvan"
 		},
-		"population": 23361147,
 		"latlng": [23.5, 121],
 		"demonym": "Taiwanese",
-		"borders": []
+		"borders": [],
+		"area": 36193
 	},
 	{
 		"name": "Tajikistan",
@@ -6691,10 +6691,10 @@
 			"nl": "Tadzjikistan",
 			"hr": "Ta\u0111ikistan"
 		},
-		"population": 8000000,
 		"latlng": [39, 71],
 		"demonym": "Tadzhik",
-		"borders": ["AFG", "CHN", "KGZ", "UZB"]
+		"borders": ["AFG", "CHN", "KGZ", "UZB"],
+		"area": 143100
 	},
 	{
 		"name": "Tanzania",
@@ -6721,10 +6721,10 @@
 			"nl": "Tanzania",
 			"hr": "Tanzanija"
 		},
-		"population": 44928923,
 		"latlng": [-6, 35],
 		"demonym": "Tanzanian",
-		"borders": ["BDI", "COD", "KEN", "MWI", "MOZ", "RWA", "UGA", "ZMB"]
+		"borders": ["BDI", "COD", "KEN", "MWI", "MOZ", "RWA", "UGA", "ZMB"],
+		"area": 945087
 	},
 	{
 		"name": "Thailand",
@@ -6747,14 +6747,14 @@
 			"nl": "Thailand",
 			"de": "Thailand",
 			"it": "Tailandia",
-			"ja": "\u30BF\u30A4",
+			"ja": "\u30bf\u30a4",
 			"es": "Tailandia",
 			"hr": "Tajland"
 		},
-		"population": 65926261,
 		"latlng": [15, 100],
 		"demonym": "Thai",
-		"borders": ["Burma", "KHM", "LAO", "MYS"]
+		"borders": ["Burma", "KHM", "LAO", "MYS"],
+		"area": 513120
 	},
 	{
 		"name": "Timor-Leste",
@@ -6777,14 +6777,14 @@
 			"nl": "Oost-Timor",
 			"de": "Timor-Leste",
 			"it": "Timor Est",
-			"ja": "\u6771\u30C6\u30A3\u30E2\u30FC\u30EB",
+			"ja": "\u6771\u30c6\u30a3\u30e2\u30fc\u30eb",
 			"es": "Timor Oriental",
 			"hr": "Isto\u010dni Timor"
 		},
-		"population": 1172390,
 		"latlng": [-8.83333333, 125.91666666],
 		"demonym": "East Timorese",
-		"borders": ["IDN"]
+		"borders": ["IDN"],
+		"area": 14874
 	},
 	{
 		"name": "Togo",
@@ -6811,10 +6811,10 @@
 			"nl": "Togo",
 			"hr": "Togo"
 		},
-		"population": 6191155,
 		"latlng": [8, 1.16666666],
 		"demonym": "Togolese",
-		"borders": ["BEN", "BFA", "GHA"]
+		"borders": ["BEN", "BFA", "GHA"],
+		"area": 56785
 	},
 	{
 		"name": "Tokelau",
@@ -6841,10 +6841,10 @@
 			"nl": "Tokelau",
 			"hr": "Tokelau"
 		},
-		"population": 1411,
 		"latlng": [-9, -172],
 		"demonym": "Tokelauan",
-		"borders": []
+		"borders": [],
+		"area": 12
 	},
 	{
 		"name": "Tonga",
@@ -6871,10 +6871,10 @@
 			"nl": "Tonga",
 			"hr": "Tonga"
 		},
-		"population": 103036,
 		"latlng": [-20, -175],
 		"demonym": "Tongan",
-		"borders": []
+		"borders": [],
+		"area": 747
 	},
 	{
 		"name": "Trinidad and Tobago",
@@ -6901,10 +6901,10 @@
 			"nl": "Trinidad en Tobago",
 			"hr": "Trinidad i Tobago"
 		},
-		"population": 1328019,
 		"latlng": [11, -61],
 		"demonym": "Trinidadian",
-		"borders": []
+		"borders": [],
+		"area": 5130
 	},
 	{
 		"name": "Tunisia",
@@ -6931,10 +6931,10 @@
 			"nl": "Tunesi\u00eb",
 			"hr": "Tunis"
 		},
-		"population": 10833431,
 		"latlng": [34, 9],
 		"demonym": "Tunisian",
-		"borders": ["DZA", "LBY"]
+		"borders": ["DZA", "LBY"],
+		"area": 163610
 	},
 	{
 		"name": "Turkey",
@@ -6961,10 +6961,10 @@
 			"nl": "Turkije",
 			"hr": "Turska"
 		},
-		"population": 75627384,
 		"latlng": [39, 35],
 		"demonym": "Turkish",
-		"borders": ["ARM", "AZE", "BGR", "GEO", "GRC", "IRN", "IRQ", "SYR"]
+		"borders": ["ARM", "AZE", "BGR", "GEO", "GRC", "IRN", "IRQ", "SYR"],
+		"area": 783562
 	},
 	{
 		"name": "Turkmenistan",
@@ -6991,10 +6991,10 @@
 			"nl": "Turkmenistan",
 			"hr": "Turkmenistan"
 		},
-		"population": 5240000,
 		"latlng": [40, 60],
 		"demonym": "Turkmen",
-		"borders": ["AFG", "IRN", "KAZ", "UZB"]
+		"borders": ["AFG", "IRN", "KAZ", "UZB"],
+		"area": 488100
 	},
 	{
 		"name": "Turks and Caicos Islands",
@@ -7021,10 +7021,10 @@
 			"nl": "Turks- en Caicoseilanden",
 			"hr": "Otoci Turks i Caicos"
 		},
-		"population": 31458,
 		"latlng": [21.75, -71.58333333],
 		"demonym": "Turks and Caicos Islander",
-		"borders": []
+		"borders": [],
+		"area": 948
 	},
 	{
 		"name": "Tuvalu",
@@ -7051,10 +7051,10 @@
 			"nl": "Tuvalu",
 			"hr": "Tuvalu"
 		},
-		"population": 11323,
 		"latlng": [-8, 178],
 		"demonym": "Tuvaluan",
-		"borders": []
+		"borders": [],
+		"area": 26
 	},
 	{
 		"name": "Uganda",
@@ -7081,10 +7081,10 @@
 			"nl": "Oeganda",
 			"hr": "Uganda"
 		},
-		"population": 35357000,
 		"latlng": [1, 32],
 		"demonym": "Ugandan",
-		"borders": ["COD", "KEN", "RWA", "SSD", "TZA"]
+		"borders": ["COD", "KEN", "RWA", "SSD", "TZA"],
+		"area": 241550
 	},
 	{
 		"name": "Ukraine",
@@ -7111,10 +7111,10 @@
 			"nl": "Oekra\u00efne",
 			"hr": "Ukrajina"
 		},
-		"population": 45461627,
 		"latlng": [49, 32],
 		"demonym": "Ukrainian",
-		"borders": ["BLR", "HUN", "MDA", "POL", "ROU", "RUS", "SVK"]
+		"borders": ["BLR", "HUN", "MDA", "POL", "ROU", "RUS", "SVK"],
+		"area": 603500
 	},
 	{
 		"name": "United Arab Emirates",
@@ -7141,10 +7141,10 @@
 			"nl": "Verenigde Arabische Emiraten",
 			"hr": "Ujedinjeni Arapski Emirati"
 		},
-		"population": 5473972,
 		"latlng": [24, 54],
 		"demonym": "Emirati",
-		"borders": ["OMN", "SAU"]
+		"borders": ["OMN", "SAU"],
+		"area": 83600
 	},
 	{
 		"name": "United Kingdom",
@@ -7171,10 +7171,10 @@
 			"nl": "Verenigd Koninkrijk",
 			"hr": "Ujedinjeno Kraljevstvo"
 		},
-		"population": 63705000,
 		"latlng": [54, -2],
 		"demonym": "British",
-		"borders": ["IRL"]
+		"borders": ["IRL"],
+		"area": 242900
 	},
 	{
 		"name": "United States",
@@ -7201,10 +7201,10 @@
 			"nl": "Verenigde Staten",
 			"hr": "Sjedinjene Ameri\u010dke Dr\u017eave"
 		},
-		"population": 317101000,
 		"latlng": [38, -97],
 		"demonym": "American",
-		"borders": ["CAN", "MEX"]
+		"borders": ["CAN", "MEX"],
+		"area": 9372610
 	},
 	{
 		"name": "United States Minor Outlying Islands",
@@ -7231,10 +7231,10 @@
 			"nl": "Kleine afgelegen eilanden van de Verenigde Staten",
 			"hr": "Mali udaljeni otoci SAD-a"
 		},
-		"population": 300,
 		"latlng": [],
 		"demonym": "American",
-		"borders": []
+		"borders": [],
+		"area": -1
 	},
 	{
 		"name": "United States Virgin Islands",
@@ -7261,10 +7261,10 @@
 			"nl": "Amerikaanse Maagdeneilanden",
 			"hr": "Ameri\u010dki Djevi\u010danski Otoci"
 		},
-		"population": 106405,
 		"latlng": [18.35, -64.933333],
 		"demonym": "Virgin Islander",
-		"borders": []
+		"borders": [],
+		"area": 347
 	},
 	{
 		"name": "Uruguay",
@@ -7291,10 +7291,10 @@
 			"nl": "Uruguay",
 			"hr": "Urugvaj"
 		},
-		"population": 3286314,
 		"latlng": [-33, -56],
 		"demonym": "Uruguayan",
-		"borders": ["ARG", "BRA"]
+		"borders": ["ARG", "BRA"],
+		"area": 181034
 	},
 	{
 		"name": "Uzbekistan",
@@ -7321,10 +7321,10 @@
 			"nl": "Oezbekistan",
 			"hr": "Uzbekistan"
 		},
-		"population": 30183400,
 		"latlng": [41, 64],
 		"demonym": "Uzbekistani",
-		"borders": ["AFG", "KAZ", "KGZ", "TJK", "TKM"]
+		"borders": ["AFG", "KAZ", "KGZ", "TJK", "TKM"],
+		"area": 447400
 	},
 	{
 		"name": "Vanuatu",
@@ -7351,10 +7351,10 @@
 			"nl": "Vanuatu",
 			"hr": "Vanuatu"
 		},
-		"population": 264652,
 		"latlng": [-16, 167],
 		"demonym": "Ni-Vanuatu",
-		"borders": []
+		"borders": [],
+		"area": 12189
 	},
 	{
 		"name": "Venezuela",
@@ -7381,10 +7381,10 @@
 			"nl": "Venezuela",
 			"hr": "Venezuela"
 		},
-		"population": 28946101,
 		"latlng": [8, -66],
 		"demonym": "Venezuelan",
-		"borders": ["BRA", "COL", "GUY"]
+		"borders": ["BRA", "COL", "GUY"],
+		"area": 916445
 	},
 	{
 		"name": "Vietnam",
@@ -7407,14 +7407,14 @@
 			"nl": "Vietnam",
 			"de": "Vietnam",
 			"it": "Vietnam",
-			"ja": "\u30D9\u30C8\u30CA\u30E0",
+			"ja": "\u30d9\u30c8\u30ca\u30e0",
 			"es": "Vietnam",
 			"hr": "Vijetnam"
 		},
-		"population": 90388000,
 		"latlng": [16.16666666, 107.83333333],
 		"demonym": "Vietnamese",
-		"borders": ["KHM", "CHN", "LAO"]
+		"borders": ["KHM", "CHN", "LAO"],
+		"area": 331212
 	},
 	{
 		"name": "Wallis and Futuna",
@@ -7441,10 +7441,10 @@
 			"nl": "Wallis en Futuna",
 			"hr": "Wallis i Fortuna"
 		},
-		"population": 13135,
 		"latlng": [-13.3, -176.2],
 		"demonym": "Wallis and Futuna Islander",
-		"borders": []
+		"borders": [],
+		"area": 142
 	},
 	{
 		"name": "Western Sahara",
@@ -7471,10 +7471,10 @@
 			"nl": "Westelijke Sahara",
 			"hr": "Zapadna Sahara"
 		},
-		"population": 567000,
 		"latlng": [24.5, -13],
 		"demonym": "Sahrawi",
-		"borders": ["DZA", "MRT", "MAR"]
+		"borders": ["DZA", "MRT", "MAR"],
+		"area": 266000
 	},
 	{
 		"name": "Yemen",
@@ -7501,10 +7501,10 @@
 			"nl": "Jemen",
 			"hr": "Jemen"
 		},
-		"population": 24527000,
 		"latlng": [15, 48],
 		"demonym": "Yemeni",
-		"borders": ["OMN", "SAU"]
+		"borders": ["OMN", "SAU"],
+		"area": 527968
 	},
 	{
 		"name": "Zambia",
@@ -7531,10 +7531,10 @@
 			"nl": "Zambia",
 			"hr": "Zambija"
 		},
-		"population": 13092666,
 		"latlng": [-15, 30],
 		"demonym": "Zambian",
-		"borders": ["AGO", "BWA", "COD", "MWI", "MOZ", "NAM", "TZA", "ZWE"]
+		"borders": ["AGO", "BWA", "COD", "MWI", "MOZ", "NAM", "TZA", "ZWE"],
+		"area": 752612
 	},
 	{
 		"name": "Zimbabwe",
@@ -7561,9 +7561,9 @@
 			"nl": "Zimbabwe",
 			"hr": "Zimbabve"
 		},
-		"population": 12973808,
 		"latlng": [-20, 30],
 		"demonym": "Zimbabwean",
-		"borders": ["BWA", "MOZ", "ZAF", "ZMB"]
+		"borders": ["BWA", "MOZ", "ZAF", "ZMB"],
+		"area": 390757
 	}
 ]

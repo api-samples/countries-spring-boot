@@ -45,4 +45,5 @@ public class Country {
 
     public List<String> borders;
 
+    public Integer area;
 }

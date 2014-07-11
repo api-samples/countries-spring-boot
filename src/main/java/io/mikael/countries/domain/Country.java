@@ -37,8 +37,6 @@ public class Country {
 
     public Map<String, String> translations;
 
-    public Long population;
-
     public List<Long> latlng;
 
     public String demonym;

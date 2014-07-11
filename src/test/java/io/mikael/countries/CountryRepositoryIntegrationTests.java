@@ -2,7 +2,6 @@ package io.mikael.countries;
 
 import io.mikael.countries.domain.Country;
 import io.mikael.countries.domain.CountryRepository;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,7 +18,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.Optional;
+import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
@@ -45,25 +44,26 @@ public class CountryRepositoryIntegrationTests {
     }
 
     @Test
-    public void findFinlandDirectly() throws Exception {
-        final Optional<Country> finland = dao.findCountry("FI");
-        Assert.assertEquals(finland.get().name, "Finland");
+    public void findFinlandDirectly() {
+        final Country finland = dao.findCountry("FI")
+                .orElseThrow(() -> new AssertionError("Finland not found"));
+        assertEquals("Finland", finland.name);
     }
 
     @Test
-    public void findSwedenOverWeb() throws Exception {
+    public void findSwedenOverWeb() {
         final String url = String.format("http://localhost:%s/countries/SE", port);
         final ResponseEntity<Country> re = restTemplate.getForEntity(url, Country.class);
-        Assert.assertEquals(HttpStatus.OK, re.getStatusCode());
+        assertEquals(HttpStatus.OK, re.getStatusCode());
         final Country sweden = re.getBody();
-        Assert.assertEquals("Sweden", sweden.name);
+        assertEquals("Sweden", sweden.name);
     }
 
     @Test
-    public void findInvalid() throws Exception {
+    public void findInvalid() {
         final String url = String.format("http://localhost:%s/countries/BLAH", port);
         final ResponseEntity<Country> re = restTemplate.getForEntity(url, Country.class);
-        Assert.assertEquals(HttpStatus.NOT_FOUND, re.getStatusCode());
+        assertEquals(HttpStatus.NOT_FOUND, re.getStatusCode());
     }
 
 }

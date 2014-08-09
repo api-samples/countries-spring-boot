@@ -1,5 +1,6 @@
 package io.mikael.countries;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.mikael.countries.domain.Country;
 import io.mikael.countries.domain.CountryRepository;
 import org.junit.Before;
@@ -9,14 +10,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.embedded.EmbeddedWebApplicationContext;
 import org.springframework.boot.test.IntegrationTest;
 import org.springframework.boot.test.SpringApplicationConfiguration;
-import org.springframework.boot.test.TestRestTemplate;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
-import org.springframework.web.client.RestTemplate;
+import retrofit.RestAdapter;
+import retrofit.RetrofitError;
+import retrofit.client.ApacheClient;
+import retrofit.converter.JacksonConverter;
+import retrofit.http.GET;
+import retrofit.http.Path;
 
 import static org.junit.Assert.assertEquals;
 
@@ -34,13 +38,25 @@ public class CountryRepositoryIntegrationTests {
     @Autowired
     private CountryRepository dao;
 
-    private RestTemplate restTemplate = new TestRestTemplate();
+    @Autowired
+    protected ObjectMapper objectMapper;
 
-    private int port;
+    protected CountriesRestFacade backend;
 
-    @Before
+    public static interface CountriesRestFacade {
+        @GET("/countries/{code}")
+        Country country(@Path("code") String code);
+    }
+
+        @Before
     public void init() {
-        port = server.getEmbeddedServletContainer().getPort();
+        final RestAdapter restAdapter = new RestAdapter.Builder()
+                .setEndpoint(String.format("http://127.0.0.1:%s",
+                        server.getEmbeddedServletContainer().getPort()))
+                .setClient(new ApacheClient())
+                .setConverter(new JacksonConverter(objectMapper))
+                .build();
+        this.backend = restAdapter.create(CountriesRestFacade.class);
     }
 
     @Test
@@ -52,18 +68,19 @@ public class CountryRepositoryIntegrationTests {
 
     @Test
     public void findSwedenOverWeb() {
-        final String url = String.format("http://localhost:%s/countries/SE", port);
-        final ResponseEntity<Country> re = restTemplate.getForEntity(url, Country.class);
-        assertEquals(HttpStatus.OK, re.getStatusCode());
-        final Country sweden = re.getBody();
+        final Country sweden = backend.country("SE");
         assertEquals("Sweden", sweden.name);
     }
 
-    @Test
+    @Test(expected = RetrofitError.class)
     public void findInvalid() {
-        final String url = String.format("http://localhost:%s/countries/BLAH", port);
-        final ResponseEntity<Country> re = restTemplate.getForEntity(url, Country.class);
-        assertEquals(HttpStatus.NOT_FOUND, re.getStatusCode());
+        try {
+            backend.country("BLAH");
+        } catch (final RetrofitError e) {
+            assertEquals("invalid country should not be found",
+                    HttpStatus.NOT_FOUND.value(), e.getResponse().getStatus());
+            throw e;
+        }
     }
 
 }

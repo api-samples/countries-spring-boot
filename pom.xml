@@ -12,12 +12,12 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.1.5.RELEASE</version>
+        <version>1.1.9.RELEASE</version>
     </parent>
 
     <properties>
         <java.version>1.8</java.version>
-        <jetty.version>9.2.2.v20140723</jetty.version>
+        <jetty.version>9.2.5.v20141112</jetty.version>
         <servlet-api.version>3.1.0</servlet-api.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -42,13 +42,13 @@
         <dependency>
             <groupId>com.squareup.retrofit</groupId>
             <artifactId>retrofit</artifactId>
-            <version>1.6.1</version>
+            <version>1.8.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.squareup.retrofit</groupId>
             <artifactId>converter-jackson</artifactId>
-            <version>1.6.1</version>
+            <version>1.8.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>

@@ -43,7 +43,7 @@ public class CountryRepositoryIntegrationTests {
 
     protected CountriesRestFacade backend;
 
-    public static interface CountriesRestFacade {
+    public interface CountriesRestFacade {
         @GET("/countries/{code}")
         Country country(@Path("code") String code);
     }

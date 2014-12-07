@@ -39,16 +39,16 @@ public class CountryRepositoryIntegrationTests {
     private CountryRepository dao;
 
     @Autowired
-    protected ObjectMapper objectMapper;
+    private ObjectMapper objectMapper;
 
-    protected CountriesRestFacade backend;
+    private CountriesRestFacade backend;
 
     public interface CountriesRestFacade {
         @GET("/countries/{code}")
         Country country(@Path("code") String code);
     }
 
-        @Before
+    @Before
     public void init() {
         final RestAdapter restAdapter = new RestAdapter.Builder()
                 .setEndpoint(String.format("http://127.0.0.1:%s",

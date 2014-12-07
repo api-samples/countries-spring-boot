@@ -17,6 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <spring.version>4.1.2.RELEASE</spring.version>
         <jetty.version>9.2.5.v20141112</jetty.version>
         <servlet-api.version>3.1.0</servlet-api.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,7 +55,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>

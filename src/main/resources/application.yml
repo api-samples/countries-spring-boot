@@ -1,5 +1,5 @@
-http.mappers.json-pretty-print: true
-error.whitelabel.enabled: false
+spring.jackson.serialization.INDENT_OUTPUT: true
+management.context-path: /manage
 
 server:
   port: 8080
@@ -20,11 +20,3 @@ spring:
   main:
     show-banner: false
     log-startup-info: false
-
----
-spring.profiles: heroku
-
-server.port: ${PORT}
-server.address: 0.0.0.0
-
-spring.main.show-banner: false

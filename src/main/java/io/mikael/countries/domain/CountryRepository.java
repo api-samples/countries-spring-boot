@@ -22,7 +22,7 @@ public class CountryRepository {
     private List<Country> data = Collections.emptyList();
 
     @PostConstruct
-    public void parseCountries() {
+    private void parseCountries() {
         try (final InputStream is = file.getInputStream()) {
             data = new ObjectMapper().readValue(is, new TypeReference<List<Country>>() {});
         } catch (final IOException e) {
@@ -35,7 +35,9 @@ public class CountryRepository {
      * @param twoLetterCountryCode ISO 3166-1 alpha-2 country code.
      */
     public Optional<Country> findCountry(final String twoLetterCountryCode) {
-        return data.stream().filter(c -> c.cca2.equals(twoLetterCountryCode)).findFirst();
+        return data.stream()
+                .filter(c -> c.cca2.equals(twoLetterCountryCode))
+                .findFirst();
     }
 
 }

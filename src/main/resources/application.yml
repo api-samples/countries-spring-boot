@@ -9,11 +9,7 @@ server:
 ---
 spring.profiles: test
 
-server:
-  port: 0
-  address: 127.0.0.1
-  sessionTimeout: 0
-
+server.port: 0
 management.port: -1
 
 spring:

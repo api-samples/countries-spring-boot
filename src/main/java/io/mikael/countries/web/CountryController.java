@@ -17,7 +17,7 @@ public class CountryController {
     private CountryRepository dao;
 
     @RequestMapping(value="/countries/{cca2}", method=RequestMethod.GET)
-    public ResponseEntity<Country> getCountry(@PathVariable String cca2) {
+    public ResponseEntity<Country> getCountry(final @PathVariable String cca2) {
         return dao.findCountry(cca2)
                 .map(c -> new ResponseEntity<>(c, HttpStatus.OK))
                 .orElseGet(() -> new ResponseEntity<>(HttpStatus.NOT_FOUND));

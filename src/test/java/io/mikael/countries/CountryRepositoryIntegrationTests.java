@@ -1,8 +1,6 @@
 package io.mikael.countries;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.mikael.countries.domain.Country;
-import io.mikael.countries.domain.CountryRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -36,9 +34,6 @@ public class CountryRepositoryIntegrationTests {
     private EmbeddedWebApplicationContext server;
 
     @Autowired
-    private CountryRepository dao;
-
-    @Autowired
     private ObjectMapper objectMapper;
 
     private CountriesRestFacade backend;
@@ -60,14 +55,13 @@ public class CountryRepositoryIntegrationTests {
     }
 
     @Test
-    public void findFinlandDirectly() {
-        final Country finland = dao.findCountry("FI")
-                .orElseThrow(() -> new AssertionError("Finland not found"));
+    public void findFinland() {
+        final Country finland = backend.country("FI");
         assertEquals("Finland", finland.name);
     }
 
     @Test
-    public void findSwedenOverWeb() {
+    public void findSweden() {
         final Country sweden = backend.country("SE");
         assertEquals("Sweden", sweden.name);
     }

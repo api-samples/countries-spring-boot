@@ -1,4 +1,4 @@
-package io.mikael.countries.domain;
+package io.mikael.countries;
 
 import java.util.List;
 import java.util.Map;

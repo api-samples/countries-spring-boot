@@ -82,6 +82,10 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <finalName>countries</finalName>
+                    <classifier>runnable</classifier>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>pl.project13.maven</groupId>

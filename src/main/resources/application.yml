@@ -3,7 +3,6 @@ management.context-path: /manage
 
 server:
   port: 8080
-  sessionTimeout: 0
 
 ---
 spring.profiles: test
@@ -11,8 +10,3 @@ spring.profiles: test
 server.address: 127.0.0.1
 server.port: 0
 management.port: -1
-
-spring:
-  main:
-    show-banner: false
-    log-startup-info: false

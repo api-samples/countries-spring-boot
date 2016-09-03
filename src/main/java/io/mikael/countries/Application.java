@@ -29,7 +29,7 @@ public class Application {
     @Value("classpath:countries.json")
     private Resource file;
 
-    private ConcurrentMap<String, Country> data;
+    private volatile ConcurrentMap<String, Country> data;
 
     @PostConstruct
     private void parseCountries() {

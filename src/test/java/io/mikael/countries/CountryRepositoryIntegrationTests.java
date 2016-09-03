@@ -1,6 +1,12 @@
 package io.mikael.countries;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import feign.Feign;
+import feign.FeignException;
+import feign.Param;
+import feign.RequestLine;
+import feign.jackson.JacksonDecoder;
+import feign.jackson.JacksonEncoder;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,12 +16,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
-import retrofit.RestAdapter;
-import retrofit.RetrofitError;
-import retrofit.client.ApacheClient;
-import retrofit.converter.JacksonConverter;
-import retrofit.http.GET;
-import retrofit.http.Path;
 
 import static org.junit.Assert.assertEquals;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
@@ -34,19 +34,18 @@ public class CountryRepositoryIntegrationTests {
     private CountriesRestFacade backend;
 
     public interface CountriesRestFacade {
-        @GET("/countries/{code}")
-        Country country(@Path("code") String code);
+        @RequestLine("GET /countries/{code}")
+        Country country(@Param("code") String code);
     }
 
     @Before
     public void init() {
-        final RestAdapter restAdapter = new RestAdapter.Builder()
-                .setEndpoint(String.format("http://127.0.0.1:%s",
-                        server.getEmbeddedServletContainer().getPort()))
-                .setClient(new ApacheClient())
-                .setConverter(new JacksonConverter(objectMapper))
-                .build();
-        this.backend = restAdapter.create(CountriesRestFacade.class);
+        this.backend = Feign.builder()
+                .decoder(new JacksonDecoder())
+                .encoder(new JacksonEncoder())
+                .target(CountriesRestFacade.class,
+                        String.format("http://127.0.0.1:%s",
+                                server.getEmbeddedServletContainer().getPort()));
     }
 
     @Test
@@ -61,13 +60,13 @@ public class CountryRepositoryIntegrationTests {
         assertEquals("Sweden", sweden.name);
     }
 
-    @Test(expected = RetrofitError.class)
+    @Test(expected = FeignException.class)
     public void findInvalid() {
         try {
             backend.country("BLAH");
-        } catch (final RetrofitError e) {
+        } catch (final FeignException e) {
             assertEquals("invalid country should not be found",
-                    HttpStatus.NOT_FOUND.value(), e.getResponse().getStatus());
+                    HttpStatus.NOT_FOUND.value(), e.status());
             throw e;
         }
     }

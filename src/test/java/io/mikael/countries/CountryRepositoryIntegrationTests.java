@@ -41,8 +41,8 @@ public class CountryRepositoryIntegrationTests {
     @Before
     public void init() {
         this.backend = Feign.builder()
-                .decoder(new JacksonDecoder())
-                .encoder(new JacksonEncoder())
+                .decoder(new JacksonDecoder(objectMapper))
+                .encoder(new JacksonEncoder(objectMapper))
                 .target(CountriesRestFacade.class,
                         String.format("http://127.0.0.1:%s",
                                 server.getEmbeddedServletContainer().getPort()));

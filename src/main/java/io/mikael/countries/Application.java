@@ -8,9 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.PostConstruct;
@@ -41,7 +40,7 @@ public class Application {
         }
     }
 
-    @RequestMapping(value="/countries/{cca2}", method= RequestMethod.GET)
+    @GetMapping(value="/countries/{cca2}")
     public ResponseEntity<Country> getCountry(final @PathVariable String cca2) {
         return Optional.ofNullable(data.get(cca2))
                 .map(c -> new ResponseEntity<>(c, HttpStatus.OK))

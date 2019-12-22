@@ -11,8 +11,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.embedded.EmbeddedWebApplicationContext;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.HttpStatus;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -25,8 +25,8 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @ActiveProfiles("test")
 public class CountryRepositoryIntegrationTests {
 
-    @Autowired
-    private EmbeddedWebApplicationContext server;
+    @LocalServerPort
+    private Integer port;
 
     @Autowired
     private ObjectMapper objectMapper;
@@ -44,8 +44,7 @@ public class CountryRepositoryIntegrationTests {
                 .decoder(new JacksonDecoder(objectMapper))
                 .encoder(new JacksonEncoder(objectMapper))
                 .target(CountriesRestFacade.class,
-                        String.format("http://127.0.0.1:%s",
-                                server.getEmbeddedServletContainer().getPort()));
+                        String.format("http://127.0.0.1:%s", port));
     }
 
     @Test

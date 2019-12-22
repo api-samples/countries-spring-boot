@@ -6,23 +6,23 @@ name: boot-countries
 version: 1.0-SNAPSHOT
 packaging: jar
 
-parent: {artifactId: spring-boot-starter-parent, groupId: org.springframework.boot, version: 1.4.2.RELEASE}
+parent: {artifactId: spring-boot-starter-parent, groupId: org.springframework.boot, version: 2.2.2.RELEASE}
 
-properties: {feign.version: 9.3.1, java.version: 1.8}
+properties: {feign.version: 10.7.0, java.version: 11}
 
 dependencies:
-- artifactId: spring-boot-starter-web
-  groupId: org.springframework.boot
-  exclusions:
-  - {artifactId: spring-boot-starter-tomcat, groupId: org.springframework.boot}
-- {artifactId: spring-boot-starter-undertow, groupId: org.springframework.boot}
-- {artifactId: spring-boot-starter-actuator, groupId: org.springframework.boot}
-- {scope: test, artifactId: httpclient, groupId: org.apache.httpcomponents}
-- {scope: test, artifactId: feign-jackson, groupId: io.github.openfeign, version: '${feign.version}'}
-- {scope: test, artifactId: spring-boot-starter-test, groupId: org.springframework.boot}
+  - artifactId: spring-boot-starter-web
+    groupId: org.springframework.boot
+    exclusions:
+      - {artifactId: spring-boot-starter-tomcat, groupId: org.springframework.boot}
+  - {artifactId: spring-boot-starter-undertow, groupId: org.springframework.boot}
+  - {artifactId: spring-boot-starter-actuator, groupId: org.springframework.boot}
+  - {scope: test, artifactId: httpclient, groupId: org.apache.httpcomponents}
+  - {scope: test, artifactId: feign-jackson, groupId: io.github.openfeign, version: '${feign.version}'}
+  - {scope: test, artifactId: spring-boot-starter-test, groupId: org.springframework.boot}
 
 build:
   plugins:
-  - groupId: org.springframework.boot
-    artifactId: spring-boot-maven-plugin
-    configuration: {finalName: countries, classifier: runnable}
+    - groupId: org.springframework.boot
+      artifactId: spring-boot-maven-plugin
+      configuration: {finalName: countries, classifier: runnable}

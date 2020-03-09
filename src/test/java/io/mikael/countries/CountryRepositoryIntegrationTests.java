@@ -49,13 +49,13 @@ public class CountryRepositoryIntegrationTests {
 
     @Test
     public void findFinland() {
-        final Country finland = backend.country("FI");
+        final var finland = backend.country("FI");
         assertEquals("Finland", finland.name);
     }
 
     @Test
     public void findSweden() {
-        final Country sweden = backend.country("SE");
+        final var sweden = backend.country("SE");
         assertEquals("Sweden", sweden.name);
     }
 

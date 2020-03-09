@@ -1,3 +1,7 @@
+logging:
+  root: ERROR
+  io.mikael: DEBUG
+
 spring.jackson.serialization.INDENT_OUTPUT: true
 management.context-path: /manage
 

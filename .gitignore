@@ -5,3 +5,4 @@
 /.idea/
 /*.iml
 /src/main/resources/git.properties
+hs_err_*.log

@@ -32,7 +32,7 @@ public class Application {
 
     @PostConstruct
     private void parseCountries() {
-        try (final InputStream is = file.getInputStream()) {
+        try (final var is = file.getInputStream()) {
             final var list = new ObjectMapper().readValue(is, new TypeReference<List<Country>>() {});
             data = list.stream().collect(Collectors.toMap(c -> c.cca2, c -> c, (a, b) -> a, ConcurrentHashMap::new));
         } catch (final IOException e) {

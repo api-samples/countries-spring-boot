@@ -6,9 +6,9 @@ name: boot-countries
 version: 1.0-SNAPSHOT
 packaging: jar
 
-parent: {artifactId: spring-boot-starter-parent, groupId: org.springframework.boot, version: 2.2.2.RELEASE}
+parent: {artifactId: spring-boot-starter-parent, groupId: org.springframework.boot, version: 2.2.5.RELEASE}
 
-properties: {feign.version: 10.7.0, java.version: 11}
+properties: {feign.version: 10.8, java.version: 11}
 
 dependencies:
   - artifactId: spring-boot-starter-web
@@ -17,6 +17,8 @@ dependencies:
       - {artifactId: spring-boot-starter-tomcat, groupId: org.springframework.boot}
   - {artifactId: spring-boot-starter-undertow, groupId: org.springframework.boot}
   - {artifactId: spring-boot-starter-actuator, groupId: org.springframework.boot}
+  - {groupId: org.jboss.xnio, artifactId: xnio-nio, version: 3.7.7.Final}
+  - {groupId: org.jboss.threads, artifactId: jboss-threads, version: 3.0.1.Final}
   - {scope: test, artifactId: httpclient, groupId: org.apache.httpcomponents}
   - {scope: test, artifactId: feign-jackson, groupId: io.github.openfeign, version: '${feign.version}'}
   - {scope: test, artifactId: spring-boot-starter-test, groupId: org.springframework.boot}
